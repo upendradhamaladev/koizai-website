@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import CustomArrows from './components/Slider'
 const HomePage = () => {
   const points = [
     {
@@ -113,7 +113,13 @@ const HomePage = () => {
               Our team has undertaken the challenge to create and unrivalled
               adviser client and business management platform.
             </div>
-            <img src='' alt='' />
+            <div className='cover'>
+              <img
+                className='arrowRight'
+                src='./Images/rightArrow.png'
+                alt='Logo'
+              />
+            </div>
           </div>
           <div className='container'>
             <div className='number'>02</div>
@@ -124,7 +130,13 @@ const HomePage = () => {
               Our team has undertaken the challenge to create and unrivalled
               adviser client and business management platform.
             </div>
-            <img src='' alt='' />
+            <div className='cover'>
+              <img
+                className='arrowRight'
+                src='./Images/rightArrow.png'
+                alt='Logo'
+              />
+            </div>
           </div>{' '}
           <div className='container'>
             <div className='number'>03</div>
@@ -133,7 +145,13 @@ const HomePage = () => {
               Our team has undertaken the challenge to create and unrivalled
               adviser client and business management platform.
             </div>
-            <img src='' alt='' />
+            <div className='cover'>
+              <img
+                className='arrowRight'
+                src='./Images/rightArrow.png'
+                alt='Logo'
+              />
+            </div>
           </div>{' '}
           <div className='container'>
             <div className='number'>04</div>
@@ -142,7 +160,13 @@ const HomePage = () => {
               Our team has undertaken the challenge to create and unrivalled
               adviser client and business management platform.
             </div>
-            <img src='' alt='' />
+            <div className='cover'>
+              <img
+                className='arrowRight'
+                src='./Images/rightArrow.png'
+                alt='Logo'
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -150,22 +174,46 @@ const HomePage = () => {
       <div className='testimonials'>
         <div className='how-name'>TESTIMONIALS</div>
         <div className='msg-client'>
-          Our Clients send us bunch of smiles with our services and we love them
-          :)
+          Our Clients send us bunch of smiles with our <br /> services and we
+          love them :)
+          <img className='greenDot' src='./Images/greenDot.png' alt='' />
+          <img className='yellowDot' src='./Images/yellowDot.png' alt='' />
+          <img className='person-2' src='./Images/person1.png' alt='' />
+          <img className='person-1' src='./Images/person2.png' alt='' />
+          <img className='person-3' src='./Images/person3.png' alt='' />
+          <img className='orangeDot' src='./Images/orangeDot.png' alt='' />
         </div>
+        <CustomArrows />
       </div>
       <div className='footer'>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam,
-        nesciunt nam voluptatibus minima optio id expedita. Nostrum sequi
-        impedit amet maiores nobis harum. Illo, similique, quasi blanditiis
-        maiores eos ipsa, non eveniet culpa a molestias consequuntur architecto
-        corporis nostrum at recusandae ea id rerum fuga iure sint possimus
-        minus. Distinctio quam laborum dicta reiciendis. Ducimus reiciendis quam
-        sint in perferendis ipsam officia delectus laborum! Accusantium magni
-        est suscipit culpa enim unde natus exercitationem earum rem sint fugit
-        cum eum ad aut blanditiis, provident ipsam ea modi repellat perferendis
-        voluptates, officiis molestiae! Esse sit inventore libero ullam
-        consequuntur, quia deleniti iste?
+        <div className='left-main'>
+          <img src='./Images/logoBottom.png' alt='Logo' />
+          <div className='content'>
+            <span>
+              {' '}
+              A: Rm 1211, 15/F, Soundwill Plaza II-Midtown, 1-29 Tang Lung
+              Street,  Causeway Bay, Hong Kong
+            </span>
+            <span>E: info@koizai.com</span>
+          </div>
+        </div>
+        <div className='main'>
+          <div className='info'>Let us collaborate to make this happen</div>
+          <div className='info-1'>
+            Explore how we can help you transform your business.
+          </div>
+          <button>Contact Us</button>
+          <div className='menu-section'>
+            <span>About</span>
+            <span>Solution</span>
+            <span>News</span>
+            <span>Contact</span>
+          </div>
+          <div className='faq'>FAQs . Terms & conditions</div>
+          <div className='limited'>
+            KoiZai limited 2022. All rights reserved.
+          </div>
+        </div>
       </div>
     </>
   )

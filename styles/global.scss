@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: $Montserrat;
   margin: 0;
+  overflow-x: hidden;
 
 
 }
@@ -64,5 +65,43 @@ font: normal normal normal 16px/19px $Montserrat;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+}
+.slick-slider{
+
+  width: 90%;
+  margin: auto;
+  position: relative;
+  // background: white !important
+  // border: 1px solid red;
+ 
+}
+.change-btn{
+  width: 50px;
+height: 50px;
+/* UI Properties */
+border: 1px solid #BFBFBF;
+opacity: 1;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: -100px;
+cursor: pointer;
+
+img{
+  width: 20px;
+height: 14px;
+}
+}
+.slick-new-prev{
+ left: 45%;
+  // width: 100px;
+  // height: 100px;
+}
+.slick-new-next{
+right: 45%
+  // width: 100px;
+  // height: 100px;
 }
 @import "./pages/Homepage.scss";
