@@ -104,4 +104,34 @@ right: 45%
   // width: 100px;
   // height: 100px;
 }
+.how-name{
+  display: flex;
+  align-items: center;
+  text-align: left;
+font: normal normal 600 20px/31px $Montserrat;
+letter-spacing: 0px;
+color: #505050;
+text-transform: uppercase;
+opacity: 1;
+  &::before{
+      content: "";
+      width: 51px;
+      height: 0px;
+      border: 1px solid black;
+      display: inline-block;
+      margin-right: 8.5px;
+  }
+}
+.text-content{
+  text-align: left;
+font: normal normal bold 40px/63px $Montserrat;
+letter-spacing: 0px;
+color: #505050;
+margin-top: 20px;
+width: 60%;
+}
 @import "./pages/Homepage.scss";
+@import "./pages/About.scss";
+@import "./pages/Solution.scss";
+
+
