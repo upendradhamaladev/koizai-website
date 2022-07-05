@@ -90,7 +90,7 @@ const HomePage = () => {
             <div className='number'>01</div>
             <div className='text'>
               To conduct insightful financial planning and wealth management we
-              start with an unbiased detailed examination of the client's
+              start with an unbiased detailed examination of the client&quot;s
               current situation.
             </div>
             <img src='./Images/starting point.png' alt='' />

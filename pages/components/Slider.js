@@ -43,7 +43,7 @@ export default class CustomArrows extends Component {
 
             <div className='text'>
               Koizai has been a new set of experience for my as well as my
-              family's financial growth. Always looking out to seek advise
+              family&quot;s financial growth. Always looking out to seek advise
               regarding my current financial status and what I seek for my
               future growth. Thank you Koizai !
             </div>
@@ -60,7 +60,7 @@ export default class CustomArrows extends Component {
 
             <div className='text'>
               Koizai has been a new set of experience for my as well as my
-              family's financial growth. Always looking out to seek advise
+              family&quot;s financial growth. Always looking out to seek advise
               regarding my current financial status and what I seek for my
               future growth. Thank you Koizai !
             </div>
@@ -77,7 +77,7 @@ export default class CustomArrows extends Component {
 
             <div className='text'>
               Koizai has been a new set of experience for my as well as my
-              family's financial growth. Always looking out to seek advise
+              family&quot;s financial growth. Always looking out to seek advise
               regarding my current financial status and what I seek for my
               future growth. Thank you Koizai !
             </div>
@@ -94,7 +94,7 @@ export default class CustomArrows extends Component {
 
             <div className='text'>
               Koizai has been a new set of experience for my as well as my
-              family's financial growth. Always looking out to seek advise
+              family&quot;s financial growth. Always looking out to seek advise
               regarding my current financial status and what I seek for my
               future growth. Thank you Koizai !
             </div>
@@ -111,7 +111,7 @@ export default class CustomArrows extends Component {
 
             <div className='text'>
               Koizai has been a new set of experience for my as well as my
-              family's financial growth. Always looking out to seek advise
+              family&quot;s financial growth. Always looking out to seek advise
               regarding my current financial status and what I seek for my
               future growth. Thank you Koizai !
             </div>

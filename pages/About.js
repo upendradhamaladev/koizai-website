@@ -111,7 +111,7 @@ const About = () => {
         <div className='associates'>
           <div className='how-name'>OUR ASSOCIATES</div>
           <div className='text-content' style={{ width: '30%' }}>
-            We've also built some great partnership along the way ...{' '}
+            We&quot;ve also built some great partnership along the way ...{' '}
           </div>
           <div className='subtext' style={{ width: '30%' }}>
             Building KoiZai with the help of some supporting hands is what made
