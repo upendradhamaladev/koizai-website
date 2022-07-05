@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 
 const Navbar = () => {
   const router = useRouter()
+  const [currentPage, setCurrentPage] = useState()
+  useEffect(() => {
+    if (process.browser) {
+      let currentUrl = window.location.href
+      let currentPage0 = currentUrl.split('/')[3]
+      setCurrentPage(currentPage0)
+    }
+  }, [])
 
   const changeActiveMenu = () => {
     if (process.browser) {
@@ -18,7 +26,7 @@ const Navbar = () => {
       })
     }
   }
-  changeActiveMenu()
+  // changeActiveMenu()
   return (
     <div className='navbar'>
       <div className='outer'>
@@ -32,20 +40,40 @@ const Navbar = () => {
             />
           </div>
           <div className='tabs d-flex-row'>
-            <span className='menu-item' onClick={() => router.push('/About')}>
+            <span
+              className={`menu-item ${currentPage === 'About' && 'active'}`}
+              onClick={() => router.push('/About')}
+            >
               About
             </span>
             <span
-              className='menu-item'
+              className={`menu-item ${currentPage === 'Solution' && 'active'}`}
               onClick={() => router.push('/Solution')}
             >
               Solution
             </span>
-            <span className='menu-item'>Blog</span>
-            <span className='menu-item'>Contact</span>
+            <span
+              className={`menu-item ${currentPage === 'Blog' && 'active'}`}
+              onClick={() => router.push('/Blog')}
+            >
+              Blog
+            </span>
+            <span
+              className={`menu-item ${currentPage === 'Contact' && 'active'}`}
+              onClick={() => router.push('/Contact')}
+            >
+              Contact
+            </span>
           </div>
           <div className='btn-section'>
-            <button className='btn-primary'>Sign In</button>
+            <button
+              className='btn-primary'
+              onClick={() =>
+                (window.location.href = 'http://staging.koizai.com/app/login')
+              }
+            >
+              Sign In
+            </button>
           </div>
         </div>
       </div>

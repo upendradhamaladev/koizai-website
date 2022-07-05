@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import CustomArrows from './components/Slider'
+import Navbar from './components/Navbar'
 const HomePage = () => {
   // useEffect(() => {
 
@@ -31,6 +32,7 @@ const HomePage = () => {
   }
   return (
     <>
+      <Navbar />
       <div className='homePage topSection'>
         {/* top content */}
 
