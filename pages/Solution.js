@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 const Solution = () => {
   return (
     <>
@@ -240,6 +241,7 @@ const Solution = () => {
           <img src='./SolutionImages/culture.png' alt='' />
         </div>
       </div>
+      <Footer />
     </>
   )
 }

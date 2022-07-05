@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import CustomArrows from './components/Slider'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 const HomePage = () => {
   // useEffect(() => {
 
@@ -190,6 +191,7 @@ const HomePage = () => {
         <CustomArrows />
       </div>
       {/* footer */}
+      <Footer/>
     </>
   )
 }
