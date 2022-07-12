@@ -27,6 +27,7 @@ const Navbar = () => {
     }
   }
   // changeActiveMenu()
+  const [open, setOpen] = useState(false)
   return (
     <div className='navbar'>
       <div className='outer'>
@@ -76,6 +77,82 @@ const Navbar = () => {
             </button>
           </div>
         </div>
+      </div>
+      <div className='responsive-navbar'>
+        <div className='logo'>
+          <img
+            src='./Images/koizaiSmallLogo.png'
+            alt='Logo'
+            style={{ cursor: 'pointer' }}
+            onClick={() => router.push('/')}
+          />
+        </div>
+        <div className='icon'>
+          <img
+            onClick={() => setOpen(true)}
+            src='./Images/hamburgerMenu.png'
+            alt='amurger'
+          />
+        </div>
+        {open && (
+          <div className={`overlay-menu ${open && 'slide'}`}>
+            <div className='top'>
+              <img src='./Images/koizaiSmallLogo.png' alt='' />
+              <img
+                onClick={() => setOpen(false)}
+                src='./Images/close.png'
+                alt=''
+              />
+            </div>
+            <div className='menus'>
+              <div className='menu-list'>
+                <span
+                  className={`menu-item ${currentPage === 'About' && 'active'}`}
+                  onClick={() => router.push('/About')}
+                >
+                  About
+                </span>
+              </div>
+              <div className='menu-list'>
+                <span
+                  className={`menu-item ${
+                    currentPage === 'Solution' && 'active'
+                  }`}
+                  onClick={() => router.push('/Solution')}
+                >
+                  Solution
+                </span>
+              </div>
+              <div className='menu-list'>
+                <span
+                  className={`menu-item ${currentPage === 'Blog' && 'active'}`}
+                  onClick={() => router.push('/Blog')}
+                >
+                  Blog
+                </span>
+              </div>
+              <div className='menu-list'>
+                <span
+                  className={`menu-item ${
+                    currentPage === 'Contact' && 'active'
+                  }`}
+                  onClick={() => router.push('/Contact')}
+                >
+                  Contact
+                </span>
+              </div>
+
+              <div
+                className='signin'
+                onClick={() =>
+                  (window.location.href = 'http://staging.koizai.com/app/login')
+                }
+              >
+                Sign In
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )

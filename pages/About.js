@@ -7,13 +7,32 @@ const About = () => {
     <>
       <Navbar />
       <div className='about'>
-        <div className='map'></div>
+        {/* <div className='map'></div> */}
+        <br />
         <div className='mainContent'>
           <div className='content-left'>
-            <div className='how-name'>ABOUT</div>
-            <div className='text-content' style={{ width: '100%' }}>
-              The leading modern cross border financial and wealth management
-              system
+            <div className='top'>
+              <div className='content-right-small'>
+                <img
+                  className='model'
+                  src='./Images/koizaiNew3D.png'
+                  alt='3d model'
+                />
+              </div>
+              <div className='left'>
+                <div className='how-name'>ABOUT</div>
+                <div className='text-content' style={{ width: '100%' }}>
+                  The leading modern cross border financial and wealth
+                  management system
+                </div>
+              </div>
+              <div className='content-right'>
+                <img
+                  className='model'
+                  src='./Images/koizaiNew3D.png'
+                  alt='3d model'
+                />
+              </div>
             </div>
             <div className='middleContent'>
               <div className='how-name'>OVERVIEW</div>
@@ -26,13 +45,13 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className='content-right'>
+          {/* <div className='content-right'>
             <img
               className='model'
               src='./AboutImages/koizai3d.png'
               alt='3d model'
             />
-          </div>
+          </div> */}
         </div>
         <div className='koizai-meaning'>
           <div className='inner'>
@@ -48,7 +67,7 @@ const About = () => {
             <div className='img-1'>
               <img src='./AboutImages/meaningRight.png' alt='' className='' />
               <div className='textMeaning-1'>
-                <div className='head'>Koi</div>
+                <div className='head head-first'>Koi</div>
                 Koi Fish symbolize  good fortune, luck and perseverance in
                 adversity and strength of purpose. Koi are also considered to be
                 a symbol of material and spiritual advancement.
@@ -61,7 +80,7 @@ const About = () => {
                 className='meaningRight'
               />
               <div className='textMeaning-2'>
-                <div className='head'>Zai</div>
+                <div className='head head-second'>Zai</div>
                 Zai (Japanese) and Cai (Chinese) is the character for wealth,
                 property, money, wealth, assets, riches, property
                 and valuables.​
@@ -74,9 +93,12 @@ const About = () => {
           <div className='how-name'>Our Story</div>
           <div className='text-content'>THE KOIZAI STORY </div>
           <div className='events'>
-            <div className='year'>{currentYear}</div>
-            <div className='dot'></div>
-            <div className='dot-final'></div>
+            <div className='dotis dot-top'></div>
+            <div className='dotis dot'></div>
+            <div className='dotis dot-1st'></div>
+            <div className='dotis dot-2nd'></div>
+            <div className='dotis dot-3rd'></div>
+            {/* <div className='dot-final'></div> */}
             <img src='./AboutImages/fish.png' alt='' className='koifish' />
             <div className='event'>
               <div className='start'>2017</div>
@@ -88,52 +110,72 @@ const About = () => {
               </div>
             </div>
             <div className='event'>
-              <div className='start'>2002</div>
-              <div className='title'>Building of algorithm</div>
+              <div className='start'>2018</div>
+              <div className='title'>First Prototype</div>
               <div className='content'>
-                Early work on the algorithmic financial mathematic engine
-                started in late 2002. At the time the draft models were kept
-                private as the efficient cloud-based technology to bring this to
-                being was not readily accepted by the public or the financial
-                services industry.
+                The first cloud-based prototype and Proof of Concept of KoiZai
+                was developed with positive reviews
               </div>
             </div>{' '}
             <div className='event'>
-              <div className='start'>2002</div>
-              <div className='title'>Foundation</div>
+              <div className='start'>2019</div>
+              <div className='title'>
+                The Decision to Build a New Architecture
+              </div>
               <div className='content'>
+                The prototype was completely reviewed and although the system
+                was working it was accepted that there would be limitations and
+                scalability issues with the prototype. Bravely the management
+                team decided to completely rebuild KoiZai and implement a new
+                system architecture and algorithm
+              </div>
+            </div>{' '}
+            <div className='event'>
+              <div className='start'>2020</div>
+              <div className='title'>
+                Acceptance Into the Cyberport Incubation program
+              </div>
+              {/* <div className='content'>
                 In 2002 The idea of the KoiZai AdviceTech solution was conceived
                 from an idea of how to build an isometric cross border financial
                 advisory system while the founder was working in Singapore.
-              </div>
+              </div> */}
             </div>{' '}
+            <div className='event'>
+              <div className='start'>2021</div>
+              <div className='title'>
+                Pre-commercial beta testing was started with users across Asia.
+              </div>
+              {/* <div className='content'>
+                In 2002 The idea of the KoiZai AdviceTech solution was conceived
+                from an idea of how to build an isometric cross border financial
+                advisory system while the founder was working in Singapore.
+              </div> */}
+            </div>{' '}
+            <div className='year'>{currentYear}</div>
           </div>
         </div>
         <div className='associates'>
           <div className='how-name'>OUR ASSOCIATES</div>
-          <div className='text-content' style={{ width: '30%' }}>
+          <div className='text-content'>
             We&quot;ve also built some great partnership along the way ...{' '}
           </div>
-          <div className='subtext' style={{ width: '30%' }}>
+          <div className='subtext'>
             Building KoiZai with the help of some supporting hands is what made
             the platform successful.{' '}
           </div>
-          <div className='images-associates'>
-            <img
-              src='./AboutImages/interactivebrokers.png'
-              alt=''
-              className='associate'
-            />
-            <img
-              src='./AboutImages/morningstar.png'
-              alt=''
-              className='associate'
-            />
-            <img src='./AboutImages/sfa.png' alt='' className='associate' />
-          </div>
         </div>
       </div>
-      <Footer/>
+      <div className='images-associates'>
+        <img
+          src='./AboutImages/interactivebrokers.png'
+          alt=''
+          className='associate'
+        />
+        <img src='./AboutImages/morningstar.png' alt='' className='associate' />
+        <img src='./AboutImages/sfa.png' alt='' className='associate' />
+      </div>
+      <Footer />
     </>
   )
 }

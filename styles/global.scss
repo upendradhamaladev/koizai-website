@@ -98,11 +98,30 @@ height: 14px;
  left: 45%;
   // width: 100px;
   // height: 100px;
+  @media only screen and (max-width: 1150px) {
+    //    display: none;
+   left:40%;
+    
+      }
+      @media only screen and (max-width: 600px) {
+        //    display: none;
+       left:30%;
+        
+          }
 }
 .slick-new-next{
-right: 45%
-  // width: 100px;
-  // height: 100px;
+right: 45%;
+  
+  @media only screen and (max-width: 1150px) {
+    //    display: none;
+   right:40%;
+    
+      }
+      @media only screen and (max-width: 600px) {
+        //    display: none;
+       right:30%;
+        
+          }
 }
 .how-name{
   display: flex;

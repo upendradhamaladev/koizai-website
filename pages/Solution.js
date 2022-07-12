@@ -6,6 +6,9 @@ const Solution = () => {
     <>
       <Navbar />
       <div className='solutionCover'>
+        <div className='right-small'>
+          <img src='./SolutionImages/block.png' alt='block' />
+        </div>
         <div className='left'>
           <div className='title'>SOLUTION</div>
           <div className='text'>
@@ -18,12 +21,11 @@ const Solution = () => {
           <img src='./SolutionImages/block.png' alt='block' />
         </div>
       </div>
+      <br />
       <div className='addressingProblem'>
         <div className='how-name'>THE PROBLEM</div>
         {/* <div className='text-top'> */}
-        <div className='text-content'>
-          Addressing the <br /> problems{' '}
-        </div>
+        <div className='text-content'>Addressing the problems </div>
         <div className='animationsection'>
           <div className='left'>
             <div className='text'>
@@ -46,7 +48,7 @@ const Solution = () => {
               </div>
             </div>
           </div>
-          <div className='middle'>
+          {/* <div className='middle'>
             <div className='words'>
               How do financial services organizations <br /> make sense of it
               all?
@@ -56,7 +58,7 @@ const Solution = () => {
                 <img src='./SolutionImages/red-koizai.png' alt='koizai logo' />
               </div>
             </div>
-          </div>
+          </div> */}
           <div className='right'>
             <div className='text'>
               <div className='idx'>04. </div>
@@ -81,6 +83,8 @@ const Solution = () => {
           </div>
         </div>
       </div>
+      {/* <br />
+      <br/> */}
       <div className='help-section'>
         <div className='how-name'>OUR CONTRIUTION</div>
         {/* <div className='text-top'> */}
@@ -126,9 +130,7 @@ const Solution = () => {
       <div className='key-mission'>
         <div className='how-name'>OUR FOCUS</div>
         {/* <div className='text-top'> */}
-        <div className='text-content'>
-          Our Key <br /> Mission
-        </div>
+        <div className='text-content'>Our Key Mission</div>
         <div className='text-content-1'>
           Our team has undertaken the challenge to create <br /> and unrivalled
           adviser client and business management platform.

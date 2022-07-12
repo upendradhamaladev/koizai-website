@@ -52,6 +52,17 @@ const HomePage = () => {
           <img src='./Images/dashbard.png' alt='Dashboard' />
           <img src='./Images/coin.png' alt='Coin' />
         </div>
+        <div className='leftContent-new'>
+          <div className='heading'>
+            Simplifying The Modern Financial Advice and Management Journey
+          </div>
+          <div className='textContent'>
+            Modernise the way you engage with clients and manage your financial
+            management business by using leading edge technology powered by
+            KoiZai
+          </div>
+          <div className='btn-primary btn-start'>Get Started</div>
+        </div>
         {/* how section */}
       </div>
       <div className='how-section'>
@@ -179,8 +190,8 @@ const HomePage = () => {
       <div className='testimonials'>
         <div className='how-name'>TESTIMONIALS</div>
         <div className='msg-client'>
-          Our Clients send us bunch of smiles with our <br /> services and we
-          love them :)
+          Our Clients send us bunch of smiles with our services and we love them
+          :)
           <img className='greenDot' src='./Images/greenDot.png' alt='' />
           <img className='yellowDot' src='./Images/yellowDot.png' alt='' />
           <img className='person-2' src='./Images/person1.png' alt='' />
@@ -191,7 +202,7 @@ const HomePage = () => {
         <CustomArrows />
       </div>
       {/* footer */}
-      <Footer/>
+      <Footer />
     </>
   )
 }

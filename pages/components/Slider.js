@@ -31,6 +31,61 @@ export default class CustomArrows extends Component {
       infinite: true,
       centerPadding: '60px',
       focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 1300,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            centerPadding: '80px',
+
+            // dots: true,
+          },
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            centerMode: true,
+            centerPadding: '180px',
+
+            // focusOnSelect: true,
+
+            // dots: true,
+          },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            centerMode: true,
+            centerPadding: '80px',
+
+            // focusOnSelect: true,
+
+            // dots: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            centerMode: true,
+            centerPadding: '10px',
+
+            // focusOnSelect: true,
+
+            // dots: true,
+          },
+        },
+      ],
 
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,

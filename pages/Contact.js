@@ -41,13 +41,14 @@ const Contact = () => {
           </div>
           <div className='right'>
             <div className='top-part-new'>
-              <div className='box'>
+              <div className='box box-1'>
                 <div className='title'>Address</div>
                 <div className='text'>
                   Rm 1211, 15/F, Soundwill Plaza II-Midtown, 1-29 Tang Lung
                   Street, Causeway Bay, Hong Kong
                 </div>
               </div>
+              <br />
               <div className='box'>
                 <div className='title'>Email</div>
                 <div className='text'>info@koizai.com</div>
@@ -71,7 +72,7 @@ const Contact = () => {
           ></iframe>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }

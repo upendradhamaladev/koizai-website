@@ -1,5 +1,6 @@
 // for navbar
 .navbar{
+    
     .outer{
     
 height: 94px;
@@ -10,6 +11,17 @@ opacity: 1;
 backdrop-filter: blur(24px);
 -webkit-backdrop-filter: blur(24px);
 padding: 30px 150px;
+@media only screen and (max-width: 1150px) {
+//    display: none;
+padding: 30px 70px;
+
+  }
+  @media only screen and (max-width: 992px) {
+    display: none;
+
+ 
+   }
+
 .content{
     .logo{
         width: 180px;
@@ -51,6 +63,105 @@ opacity: 1;
     }
 }
     }
+    .responsive-navbar{
+        padding: 20px 19px;
+        display: flex;
+       
+
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            img{
+                height: 60px;
+
+            }
+        }
+        .icon{
+            img{
+                width: 30px;
+                cursor: pointer;
+                // border: 1px solid red;
+height: 30px;
+            }
+        }
+        .overlay-menu{
+            position: fixed;
+            transition: all 3s ease-in-out;
+            padding: 20px 15px;
+            left: 0;
+            top: 0;
+            // width: 100vw;
+            width: 100%;
+            height: 100vh;
+            z-index: 1000;
+           
+            // height: 100vh;
+            // background: red ;
+            // background: #FFFFFF 0% 0% no-repeat padding-box;
+            opacity: 1;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            .top{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              
+                    img{
+                        height: 60px;
+        cursor: pointer;
+                    }
+               
+
+            }
+            .menus{
+                display: flex;
+                // align-items: center;
+                flex-direction: column;
+                margin-top: 60px;
+.menu-list{
+    padding-left: 18px;
+                    
+    margin-bottom:48px;
+}
+                .menu-item{
+                    
+                   
+                    text-align: left;
+font: normal normal 600 20px/31px $Montserrat;
+letter-spacing: 0px;
+color: #505050;
+opacity: 1;
+&.active{
+    border-bottom: 4px solid #00B0F0 ;
+
+}
+                }
+                .signin{
+                    background: #00B0F0 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+
+text-align: center;
+font: normal normal 500 16px/19px $Montserrat;
+ width: 197px;
+
+ padding: 20px 0;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+                }
+            }
+    //   &.slide{
+    //       left: 0px;
+    //   }
+        }
+    
+        @media only screen and (min-width: 992px) {
+            display: none;
+        
+         
+           }
+    }
 }
 
 // main section
@@ -60,6 +171,76 @@ opacity: 1;
     display: flex;
     // align-items: center;
     gap: 20px;
+    .leftContent-new{
+        display: none;
+        width: 50%;
+        margin-left: 100px;
+        margin-top: 50px;
+        
+        .heading{
+            text-align: left;
+            font: normal normal 800 50px/71px $Montserrat;
+            letter-spacing: 0px;
+            color: #2B2B2B;
+            opacity: 1;
+        }
+        .textContent{
+            text-align: left;
+            font: normal normal normal 24px/35px Montserrat;
+            letter-spacing: 0px;
+            color: #848484;
+            opacity: 1;
+            margin-top: 10px;
+        }
+        .btn-start{
+            width: 264px;
+            margin-top:40px;
+
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+        .leftContent{
+            display: none;
+           
+        }
+        .leftContent-new{
+            display: block;
+            width: 100%;
+            // padding: 0 20px;
+            margin-left: 16px;
+            margin-right: 28px;
+            padding-right: 20px;
+
+        }
+       
+        .rightContent{
+            width: 100% !important;
+            padding: 20px 40px;
+            // border: 1px solid red;
+                   
+    img:nth-child(1){
+        height: 492px;
+        object-fit: cover;
+         width: 100%;
+      
+    }
+    img:nth-child(2){
+      
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100px;
+        height: 100px;
+       
+
+
+    }
+            
+        }
+    
+     
+       }
     
     .leftContent{
         width: 50%;
@@ -115,6 +296,10 @@ opacity: 1;
     background-color: #F3F4FD;
     padding:50px 30px  50px 150px;
     position: relative;
+    @media only screen and (max-width: 768px) {
+       padding-left: 16px;
+       padding-right: 16px;
+    }
 .how-name{
     display: flex;
     align-items: center;
@@ -140,6 +325,9 @@ letter-spacing: 0px;
 color: #505050;
 margin-top: 20px;
 width: 60%;
+@media only screen and (max-width: 768px) {
+    width: 100%;
+}
 }
 .koiFish{
     position: absolute;
@@ -148,24 +336,57 @@ width: 60%;
     width:300px;
     object-fit: cover;
     height: 600px;
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
 
 }
 .core-points{
     margin-top: 40px;
     display: flex;
     gap:50px;
+    @media only screen and (max-width: 768px) {
+       flex-direction: column;
+    }
 
     
     .left-content{
         width: 40%;
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            // justify-content: space-between;
+            gap: 45px;
+            flex-wrap: wrap;
+
+        }
         .point{
-            height: 158px;
+            height: 200px;
         
             display: flex;
             align-items: center;
             gap: 30px;
             cursor: pointer;
+            @media only screen and (max-width: 1050px) {
+                height: auto;
+ 
+             }
+            @media only screen and (max-width: 600px) {
+               flex-direction: column;
+               gap: 5px;
+               align-items: flex-start;
+               height: 335px;
+        
+               width: 200px;
+
+            }
+            
             &.active{
+                @media only screen and (max-width: 600px) {
+                    border-bottom: 4px solid #00B0F0;
+                }
+
                 &::before{
                     content: "";
                     width: 8px !important;
@@ -173,6 +394,9 @@ width: 60%;
                     // background: #D0C9CB 0% 0% no-repeat padding-box;
                     background: #00B0F0 0% 0% no-repeat padding-box;
                     display: inline-block;
+                    @media only screen and (max-width: 600px) {
+                    display: none;}
+
                 }
             }
             &::before{
@@ -182,6 +406,9 @@ width: 60%;
                 background: #D0C9CB 0% 0% no-repeat padding-box;
                                 // background: #00B0F0 0% 0% no-repeat padding-box;
                 display: inline-block;
+                @media only screen and (max-width: 600px) {
+                display: none;}
+
             }
             .number
             {
@@ -207,6 +434,9 @@ letter-spacing: 0px;
 color: #BFBFBF;
 padding: 20px 10px;
 width: 100%;
+@media only screen and (max-width: 768px) {
+    padding-bottom: 5px;
+}
 
 &.active{
    
@@ -220,6 +450,11 @@ color: #505050;
     .right-content{
         width: 40%;
         position: relative;
+        @media only screen and (max-width: 768px) {
+        width: 100%;
+    
+    }
+
         .number{
             text-align: left;
             font: normal normal bold 60px/55px $Montserrat;
@@ -237,13 +472,13 @@ opacity: 1;
         }
         img{
             // position: absolute;
-            object-fit: cover;
+            object-fit: contain;
             // bottom: 0;
             margin-top: 30px;
             // right: 0;
             // border: 1px solid red;
             width: 100%;
-            height: 430px;
+            // height: 430px;
 
         }
 
@@ -256,6 +491,8 @@ opacity: 1;
         margin-top: 100px;
         // background-color: #F3F4FD;
         padding:50px 150px  50px 150px;
+        padding-right: 16px;
+        padding-left: 16px;
         position: relative;
         .how-name{
             display: flex;
@@ -266,6 +503,12 @@ opacity: 1;
         color: #505050;
         text-transform: uppercase;
         opacity: 1;
+        // padding:50px 150px  50px 150px;
+padding-left: 150px;
+padding-right: 150px;
+@media only screen and (max-width: 768px) {
+    padding: 0 16px;
+}
             &::before{
                 content: "";
                 width: 51px;
@@ -278,20 +521,28 @@ opacity: 1;
         .text-top{
             display: flex;
             gap:20px;
+            padding-left: 150px;
+padding-right: 150px;
+            @media only screen and (max-width: 768px) {
+                flex-direction: column;
+                padding: 0 16px;
+
+
+            }
             .text-content{
                 text-align: left;
             font: normal normal bold 40px/63px $Montserrat;
             letter-spacing: 0px;
             color: #505050;
             margin-top: 20px;
-            width: 50%;
+            width: 100%;
             }
             .text-content-right{
                 text-align: left;
 font: normal normal normal 24px/35px $Montserrat;
 letter-spacing: 0px;
 color: #848484;
-width: 50%;
+width: 100%;
 
 opacity: 1;
             }
@@ -302,8 +553,16 @@ margin-top: 60px;
 display: flex;
 gap: 20px;
 justify-content: center;
+@media only screen and (max-width: 768px) {
+flex-direction: column;}
 .container{
     width: 295px;
+    @media only screen and (max-width: 768px) {
+        margin-bottom: 40px;
+        width: 100%;
+
+    }
+
     .number{
         text-align: left;
         font: normal normal normal 18px/31px $Montserrat;
@@ -338,14 +597,27 @@ margin-top: 20px;
 }
 // tstimonials section
 .testimonials{
+    padding:0 16px;
     position: relative;
-   
+   .how-name, .msg-client{
+    @media only screen and (max-width: 768px) {
+        text-align: left !important;
+        justify-content: left !important;
+    }
+   }
     
     .sliderContainer{
         border: 1px solid red;
         // width: 60%;
         outline: 1px solid red;
         
+    }
+    @media only screen and (max-width: 768px) {
+    
+    .greenDot,.yellowDot, .person-1, .person-2, .person-3, .orangeDot{
+        display: none;
+
+    }
     }
 .greenDot{
 position: absolute;
@@ -437,14 +709,27 @@ margin-top: 20px;
 }
 .footer{
     background: url("/static/Images/footer.png");
+    // background: ;
     background-position: center;
     background-size: cover;
 background-repeat: no-repeat;
 padding: 20px 100px 20px 100px;
+@media only screen and (max-width: 768px) {
+    //    display: none;
+   padding-left: 16px;
+   padding-right: 16px;
+   padding-top: 100px;
+   padding-bottom: 40px;
+    
+      }
 // height: 800px;
 justify-content: space-between;
 display: flex;
 gap: 100px;
+@media only screen and (max-width: 768px) {
+   display: block;
+    
+      }
 .left-main{
     display: flex;
     flex-direction: column;
@@ -471,7 +756,7 @@ opacity: 1;
     .info{
 
         text-align: left;
-font: normal normal 800 58px/69px $Montserrat;
+font: normal normal 800 40px/40px $Montserrat;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
@@ -479,7 +764,7 @@ margin-top: 30px;
     }
     .info-1{
         text-align: left;
-font: normal normal normal 24px/35px $Montserrat;
+font: normal normal normal 20px/20px $Montserrat;
 letter-spacing: 0px;
 color: #EFEFEF;
 opacity: 1;
@@ -490,7 +775,7 @@ margin-top: 15px;
 border-radius: 10px;
 opacity: 1;
 text-align: center;
-font: normal normal medium 16px/19px $Montserrat;
+font: normal normal medium 16px/10px $Montserrat;
 letter-spacing: 0px;
 margin-top: 40px;
 color: #FFFFFF;
@@ -503,8 +788,13 @@ height: 45px;
     .menu-section{
         display: flex;
         flex-direction: column;
-     margin-top: 14px;
+     margin-top: 5px;
         align-items: flex-end;
+        @media only screen and (max-width: 768px) {
+            align-items: flex-start;
+        }
+
+        
         span{
             text-align: right;
 font: normal normal medium 18px/31px $Montserrat;
@@ -512,7 +802,7 @@ letter-spacing: 0px;
 text-transform: uppercase;
 color: #FFFFFF;
 opacity: 1;
-margin-top: 20px;
+margin-top: 10px;
         }
     }
     .faq{
@@ -526,6 +816,9 @@ display: flex;
         flex-direction: column;
     //  margin-top: 14px;
         align-items: flex-end;
+        @media only screen and (max-width: 768px) {
+align-items: flex-start;
+        }
     }
     .limited{
         margin-top: 15px;
