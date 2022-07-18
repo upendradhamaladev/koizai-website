@@ -10,11 +10,10 @@ const Solution = () => {
           <img src='./SolutionImages/block.png' alt='block' />
         </div>
         <div className='left'>
-          <div className='title'>SOLUTION</div>
+          {/* <div className='title'>SOLUTION</div> */}
           <div className='text'>
-            A part of building a modern and successful financial advisory
-            business is about working with the right supporting tools and
-            technology solutions.
+            Building a modern and successful financial advisory business
+            requires working with the right tools and technology solutions
           </div>
         </div>
         <div className='right'>
@@ -29,65 +28,72 @@ const Solution = () => {
         <div className='animationsection'>
           <div className='left'>
             <div className='text'>
-              <div className='idx'>01. </div>
+              <div className='idx  idx-left-new'>01 </div>
+
               <div className='content'>
-                New clients, meeting client expectations
+                New clients, meeting client expectations.
               </div>
+              <div className='idx idx-left'>01 </div>
             </div>
             <div className='text'>
-              <div className='idx'>02.</div>
+              <div className='idx  idx-left-new'>02 </div>
+
               <div className='content'>
                 Finding the right talent or strategic partners to support
                 digital transformation.
               </div>
+              <div className='idx idx-left'>02</div>
             </div>
             <div className='text'>
-              <div className='idx'>03.</div>
+              <div className='idx i idx-left-new'>03 </div>
+
               <div className='content'>
                 The noise of promising an developing advanced technologies.
               </div>
+              <div className='idx idx-left'>03</div>
             </div>
           </div>
-          {/* <div className='middle'>
-            <div className='words'>
-              How do financial services organizations <br /> make sense of it
-              all?
-            </div>
-            <div className='inner-circle'>
-              <div className='inner-inner-circle'>
-                <img src='./SolutionImages/red-koizai.png' alt='koizai logo' />
-              </div>
-            </div>
-          </div> */}
+
           <div className='right'>
             <div className='text'>
-              <div className='idx'>04. </div>
+              <div className='idx idx-right'>04</div>
               <div className='content'>
                 Blending digital and physical financial services without
-                compromising human touch{' '}
+                compromising human touch.{' '}
               </div>
             </div>
             <div className='text'>
-              <div className='idx'>05.</div>
+              <div className='idx idx-right'>05</div>
               <div className='content'>
                 Addressing the risk of security threats, data breaches, data
                 privacy, and fraud.
               </div>
             </div>
             <div className='text'>
-              <div className='idx'>06.</div>
+              <div className='idx idx-right'>06</div>
               <div className='content'>
                 Is the growth of fintech a treat or an friend?{' '}
               </div>
             </div>
           </div>
+          <div className='middle'>
+            <div className='content'>
+              <div className='textIs'>
+                How do financial services <br /> organizations make <br /> sense
+                of it all?
+              </div>
+              <div className='inner-content'>
+                <img src='./Images/koizaiSmallLogo.png' alt='logo' />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      {/* <br />
-      <br/> */}
-      <div className='help-section'>
+      <br />
+      <br />
+      {/* <div className='help-section'>
         <div className='how-name'>OUR CONTRIUTION</div>
-        {/* <div className='text-top'> */}
+
         <div className='text-content'>
           How KoiZai <br /> can help?{' '}
         </div>
@@ -126,15 +132,17 @@ const Solution = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className='key-mission'>
         <div className='how-name'>OUR FOCUS</div>
         {/* <div className='text-top'> */}
         <div className='text-content'>Our Key Mission</div>
         <div className='text-content-1'>
-          Our team has undertaken the challenge to create <br /> and unrivalled
-          adviser client and business management platform.
+          The KoiZai team has undertaken the challenge to create a <br />{' '}
+          unrivalled adviser-client and business management <br /> platform
+          based on three key principles.
         </div>
+        <br />
         <div className='cards-section'>
           <div className='card'>
             <div className='title'>
@@ -216,9 +224,19 @@ const Solution = () => {
         <div className='algorithm'>
           <div className='title'>Unique and Proprietary Algorithm</div>
           <div className='content'>
-            KoiZai Is Driven By Its Unique And Proprietary Algorithm and
-            Calculation Engine To Create Data Outcomes Instead and Build AI
-            Support To The Users.
+            The core of Koizai is built around its unique and proprietary
+            algorithm and mathematical calculation engine instead of simply a
+            database or CRM. Whereas the database is the support mechanism.
+            <br />
+            <br /> One of the core of Artificial Intelligence (AI) can be seen
+            as the use of Algorithms, and techniques for analysing them. While
+            Machine Learning can be centred around Applied mathematics and
+            Neural network architectures.
+            <br />
+            <br /> At KoiZai we are focused in combining both AI and Machining
+            Learning and in time allowing for better scenario outcomes and
+            financial models to support needs of the users in their pursuit of
+            better financial lifestyle outcomes.
           </div>
         </div>
       </div>
@@ -231,11 +249,12 @@ const Solution = () => {
           </div>
           <div className='text-content-1'>
             With our Asian DNA, we believe in the diversity of cultures and
-            languages. <br /> KoiZai is a unique Fintech platform that allows
-            users to choose between a number of different languages that allow
-            for better communication and understanding. While we are also
-            focused on be-spoking the platform to meet local cultural needs
-            where appropriate.
+            languages.
+            <br /> <br /> KoiZai is a unique Fintech platform that allows users
+            to choose between a number of different languages that allow for
+            better communication and understanding. While we are also focused on
+            be-spoking the platform to meet local cultural needs where
+            appropriate.
           </div>
           <div className='know-more'>Know more about us</div>
         </div>

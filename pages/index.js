@@ -39,18 +39,17 @@ const HomePage = () => {
 
         <div className='leftContent'>
           <div className='heading'>
-            Simplifying The Modern Financial Advice and Management Journey
+            Modernising The Financial Advisory Solution With Applied Fintech{' '}
           </div>
           <div className='textContent'>
-            Modernise the way you engage with clients and manage your financial
-            management business by using leading edge technology powered by
-            KoiZai
+            Empower and democratise the financial advisory and management
+            industry with collaborative and leading edge technology.
           </div>
-          <div className='btn-primary btn-start'>Get Started</div>
+          <div className='btn-primary btn-start'>Book Demo</div>
         </div>
         <div className='rightContent'>
           <img src='./Images/dashbard.png' alt='Dashboard' />
-          <img src='./Images/coin.png' alt='Coin' />
+          {/* <img src='./Images/coin.png' alt='Coin' /> */}
         </div>
         <div className='leftContent-new'>
           <div className='heading'>
@@ -68,8 +67,9 @@ const HomePage = () => {
       <div className='how-section'>
         <div className='how-name'>HOW</div>
         <div className='text-content'>
-          We aim to help users see SEE BEYOND the obvious in financial lifestyle
-          planning and image possibilities using rich data and deep analytics
+          We aim to help users SEE BEYOND the obvious in financial planning and
+          wealth management. Enable new possibilities using rich data and deep
+          analytics.
         </div>
         <img className='koiFish' src='/Images/fish.png' alt='Koi' />
         {/* points section */}
@@ -97,16 +97,53 @@ const HomePage = () => {
               </div>
             ))}
           </div>
-
-          <div className='right-content'>
-            <div className='number'>01</div>
-            <div className='text'>
-              To conduct insightful financial planning and wealth management we
-              start with an unbiased detailed examination of the client&quot;s
-              current situation.
+          {active.active1 ? (
+            <div className='right-content'>
+              <div className='number'>01</div>
+              <div className='text'>
+                To conduct insightful financial planning and wealth management
+                we start with an unbiased detailed examination of the
+                client&apos;s current situation.
+              </div>
+              <img src='./Images/step-1.png' alt='' />
             </div>
-            <img src='./Images/starting point.png' alt='' />
-          </div>
+          ) : active.active2 ? (
+            <div className='right-content'>
+              <div className='number'>02</div>
+              <div className='text'>
+                Once the starting point is understood, the critical task of
+                understanding the client&apos;s Goals and Aspiration begins in
+                designing the lifestyle that they wish to achieve.
+              </div>
+              <img src='./Images/step-2.png' alt='' />
+            </div>
+          ) : active.active3 ? (
+            <div className='right-content'>
+              <div className='number'>03</div>
+              <div className='text'>
+                With the starting point and the goals defined then let KoiZai do
+                the heavy lifting of calculating and modelling what;
+                <div className='inner-bullets-new'>
+                  <img src='./Images/checkIcon.svg' alt='' />
+                  <div>Can be achieved</div>
+                </div>
+                <div className='inner-bullets-new'>
+                  <img src='./Images/checkIcon.svg' alt='' />
+                  <div>Seeing what needs to be done to be changed</div>
+                </div>
+                <div className='inner-bullets-new'>
+                  <img src='./Images/checkIcon.svg' alt='' />
+                  <div>
+                    What are the multiple outcomes that can be created before
+                    choosing which road to take.
+                  </div>
+                </div>
+              </div>
+              <img src='./Images/step-3.png' alt='' />
+            </div>
+          ) : (
+            ''
+          )}
         </div>
       </div>
       {/* our features */}
@@ -126,8 +163,10 @@ const HomePage = () => {
             <div className='number'>01</div>
             <div className='heading'>Fresh Technology</div>
             <div className='text'>
-              Our team has undertaken the challenge to create and unrivalled
-              adviser client and business management platform.
+              We bring a fresh approach to solving technical issues for the
+              financial advisory industry with our easy-to-use solutions created
+              by our highly experienced team with a proven track record in
+              delivering innovative results.
             </div>
             <div className='cover'>
               <img
@@ -143,8 +182,12 @@ const HomePage = () => {
               Industry experts, framework & Technology
             </div>
             <div className='text'>
-              Our team has undertaken the challenge to create and unrivalled
-              adviser client and business management platform.
+              Working with our blend of industry experts, framework and use of
+              the latest technology solutions we aim to shake up the status quo
+              on how the financial advisory industry currently utilises
+              technology in their workflow. We are focused on actively seeking
+              to drive business transformation and transparent outcomes for all
+              stakeholders.
             </div>
             <div className='cover'>
               <img
@@ -158,8 +201,10 @@ const HomePage = () => {
             <div className='number'>03</div>
             <div className='heading'>Active Business Transformation</div>
             <div className='text'>
-              Our team has undertaken the challenge to create and unrivalled
-              adviser client and business management platform.
+              Innovating the advisory process in financial planning, retirement
+              planning, wealth management, banking, and insurance fields, and
+              wealth management for clarity and transparency is what we are all
+              about.
             </div>
             <div className='cover'>
               <img
@@ -171,7 +216,7 @@ const HomePage = () => {
           </div>{' '}
           <div className='container'>
             <div className='number'>04</div>
-            <div className='heading'>Fresh Technology</div>
+            <div className='heading'>Diversity</div>
             <div className='text'>
               Our team has undertaken the challenge to create and unrivalled
               adviser client and business management platform.
@@ -187,7 +232,7 @@ const HomePage = () => {
         </div>
       </div>
       {/* testimonials  */}
-      <div className='testimonials'>
+      {/* <div className='testimonials'>
         <div className='how-name'>TESTIMONIALS</div>
         <div className='msg-client'>
           Our Clients send us bunch of smiles with our services and we love them
@@ -200,7 +245,7 @@ const HomePage = () => {
           <img className='orangeDot' src='./Images/orangeDot.png' alt='' />
         </div>
         <CustomArrows />
-      </div>
+      </div> */}
       {/* footer */}
       <Footer />
     </>

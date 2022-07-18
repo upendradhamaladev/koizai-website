@@ -21,9 +21,14 @@ const About = () => {
               </div>
               <div className='left'>
                 <div className='how-name'>ABOUT</div>
+                <br />
+                <br />
+                <br />
+                <br />
+
                 <div className='text-content' style={{ width: '100%' }}>
-                  The leading modern cross border financial and wealth
-                  management system
+                  A first in a multi-language modern cross-border financial and
+                  wealth management system
                 </div>
               </div>
               <div className='content-right'>
@@ -37,11 +42,19 @@ const About = () => {
             <div className='middleContent'>
               <div className='how-name'>OVERVIEW</div>
               <div className='text'>
-                KoiZai is an Asian-based AdviceTech system built to service the
-                growing needs of the Asian region in modernising the financial
-                planning and wealth management journey where the system does the
-                heavy lifting so that the financial advisers and users can focus
-                on their clients and financial lifestyle needs.
+                KoiZai is an AdviceTech solution built to service the growing
+                needs of the Asian and Australasian regions in modernising
+                financial planning and wealth management.
+                <br />
+                <br /> The system is built on a single platform that could
+                encompass the unique and different needs of each country, local
+                users and cross-border clients.
+                <br />
+                <br />
+                We also recognise that many users and stakeholders may not use
+                English as their first language we can also cater for the
+                diversity of cultures and languages when people are dealing with
+                their needs.
               </div>
             </div>
           </div>
@@ -123,11 +136,17 @@ const About = () => {
                 The Decision to Build a New Architecture
               </div>
               <div className='content'>
+                <img src='./Images/checkIcon.svg' alt='' />
+                {'  '}
                 The prototype was completely reviewed and although the system
                 was working it was accepted that there would be limitations and
-                scalability issues with the prototype. Bravely the management
-                team decided to completely rebuild KoiZai and implement a new
-                system architecture and algorithm
+                scalability issues with the prototype.
+                <br />
+                <br />
+                <img src='./Images/checkIcon.svg' alt='' />
+                {'  '}
+                Bravely the management team decided to completely rebuild KoiZai
+                and implement a new system architecture and algorithm
               </div>
             </div>{' '}
             <div className='event'>
@@ -158,7 +177,7 @@ const About = () => {
         <div className='associates'>
           <div className='how-name'>OUR ASSOCIATES</div>
           <div className='text-content'>
-            We&quot;ve also built some great partnership along the way ...{' '}
+            We have also built some great partnerships and friends along the way
           </div>
           <div className='subtext'>
             Building KoiZai with the help of some supporting hands is what made
@@ -167,13 +186,43 @@ const About = () => {
         </div>
       </div>
       <div className='images-associates'>
+        <img className='associate' src='./AboutImages/logos/ifast.png' alt='' />
+        <img className='associate' src='./AboutImages/logos/saxo.png' alt='' />
+        <img
+          className='associate'
+          src='./AboutImages/logos/fitness.png'
+          alt=''
+        />
+        <img className='associate' src='./AboutImages/logos/unsw.png' alt='' />
+      </div>
+      <div className='images-associates'>
         <img
           src='./AboutImages/interactivebrokers.png'
           alt=''
           className='associate'
         />
-        <img src='./AboutImages/morningstar.png' alt='' className='associate' />
+        <img
+          src='./AboutImages/logos/cyberport.png'
+          alt=''
+          className='associate'
+        />
+
         <img src='./AboutImages/sfa.png' alt='' className='associate' />
+      </div>
+      <div className='images-associates'>
+        <img
+          className='associate'
+          src='./AboutImages/morningstar.png'
+          alt=''
+          className='associate'
+        />
+
+        <img
+          className='associate'
+          src='./AboutImages/logos/stanza.png'
+          alt=''
+        />
+        <img className='associate' src='./AboutImages/logos/wtax.png' alt='' />
       </div>
       <Footer />
     </>

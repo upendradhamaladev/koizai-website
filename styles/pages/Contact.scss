@@ -1,22 +1,32 @@
 .contactUs{
     .top-part{
         height: 500px;
-        background: url('/static/Images/topImage.png');
+        background: url('/static/Images/contactImage.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
+        opacity: 1;
+       
+
         // justify-content: center;
         .text{
 margin-top: auto;
 align-self: flex-end;
 padding: 100px;
+height: 100%;
+width: 100%;
 text-align: left;
-font: normal normal bold 46px/82px $Montserrat;
+font: normal normal bold 46px/82px "lovelace";
 letter-spacing: 0px;
 color: #FFFFFF;
+
+
+
+background: transparent linear-gradient(180deg, #00000000 0%, #00000080 100%) 0% 0% no-repeat padding-box;
+
 @media only screen and (max-width: 992px) {
-    font: normal normal bold 24px/50px $Montserrat;
+    font: normal normal bold 24px/50px "lovelace";
     padding: 30px;
   }
         }

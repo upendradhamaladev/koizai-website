@@ -51,13 +51,25 @@ const Navbar = () => {
               className={`menu-item ${currentPage === 'Solution' && 'active'}`}
               onClick={() => router.push('/Solution')}
             >
-              Solution
+              Solutions
+            </span>
+            <span
+              className={`menu-item ${currentPage === 'Ecosystem' && 'active'}`}
+              onClick={() => router.push('/Ecosystem')}
+            >
+              Ecosystem
+            </span>
+            <span
+              className={`menu-item ${currentPage === 'Diversity' && 'active'}`}
+              onClick={() => router.push('/Diversity')}
+            >
+              Diversity
             </span>
             <span
               className={`menu-item ${currentPage === 'Blog' && 'active'}`}
               onClick={() => router.push('/Blog')}
             >
-              Blog
+              News
             </span>
             <span
               className={`menu-item ${currentPage === 'Contact' && 'active'}`}
@@ -120,7 +132,27 @@ const Navbar = () => {
                   }`}
                   onClick={() => router.push('/Solution')}
                 >
-                  Solution
+                  Solutions
+                </span>
+              </div>
+              <div className='menu-list'>
+                <span
+                  className={`menu-item ${
+                    currentPage === 'Ecosystem' && 'active'
+                  }`}
+                  onClick={() => router.push('/Ecosystem')}
+                >
+                  Ecosystem
+                </span>
+              </div>
+              <div className='menu-list'>
+                <span
+                  className={`menu-item ${
+                    currentPage === 'Diversity' && 'active'
+                  }`}
+                  onClick={() => router.push('/Diversity')}
+                >
+                  Diversity
                 </span>
               </div>
               <div className='menu-list'>
@@ -128,7 +160,7 @@ const Navbar = () => {
                   className={`menu-item ${currentPage === 'Blog' && 'active'}`}
                   onClick={() => router.push('/Blog')}
                 >
-                  Blog
+                  News
                 </span>
               </div>
               <div className='menu-list'>

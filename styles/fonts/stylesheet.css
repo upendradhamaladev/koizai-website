@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-Bold.woff2') format('woff2'),
+        url('Lovelace-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-ExtraBold.woff2') format('woff2'),
+        url('Lovelace-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-BoldItalic.woff2') format('woff2'),
+        url('Lovelace-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-ExtraLightItalic.woff2') format('woff2'),
+        url('Lovelace-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-LightItalic.woff2') format('woff2'),
+        url('Lovelace-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-Light.woff2') format('woff2'),
+        url('Lovelace-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-ExtraBoldItalic.woff2') format('woff2'),
+        url('Lovelace-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-ExtraLight.woff2') format('woff2'),
+        url('Lovelace-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-Italic.woff2') format('woff2'),
+        url('Lovelace-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-Medium.woff2') format('woff2'),
+        url('Lovelace-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-Regular.woff2') format('woff2'),
+        url('Lovelace-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovelace';
+    src: url('Lovelace-MediumItalic.woff2') format('woff2'),
+        url('Lovelace-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
