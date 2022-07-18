@@ -93,6 +93,21 @@ width: 50%;
         align-items: center;
         gap: 10px;
         justify-content: space-between;
+        .text{
+            padding: 17px 23px;
+            background: transparent linear-gradient(109deg, #FFFFFF 0%, #F3F3F3 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 60px #42C4E533;
+opacity: 1;
+
+
+        }
+        .left{
+            .text{            border-top-right-radius: 40px;
+border-bottom-left-radius: 40px;
+            }
+
+        }
+      
         @media only screen and (min-width: 992px) {
             .idx-left-new{display: none !important;}
         }
@@ -224,6 +239,15 @@ letter-spacing: 0px;
        
         .right{
             width: 35%;
+          
+                .text{  
+                    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;  
+            border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+                }
+    
+            
             @media only screen and (max-width: 768px) {
                 width: 100%;
              }

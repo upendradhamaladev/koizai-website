@@ -127,7 +127,7 @@ height: 30px;
                 align-items: center;
               
                     img{
-                        height: 60px;
+                        height: 50px;
         cursor: pointer;
                     }
                
@@ -187,9 +187,13 @@ opacity: 1;
 // main section
 
 .homePage{
-    margin-top: 100px;
+    margin-top: 120px;
     display: flex;
     // align-items: center;
+     @media only screen and (max-width: 992px) {
+            margin-top: 0px !important;
+
+        }
     gap: 20px;
     .leftContent-new{
         display: none;
@@ -266,6 +270,11 @@ opacity: 1;
         width: 50%;
         margin-left: 100px;
         margin-top: 50px;
+        // @media only screen and (max-width: 992px) {
+        //     margin-top: 10px !important;
+
+        // }
+
         .heading{
             text-align: left;
             font: normal normal 800 50px/71px "lovelace";
@@ -576,7 +585,7 @@ justify-content: center;
 @media only screen and (max-width: 768px) {
 flex-direction: column;}
 .container{
-    width: 295px;
+    width: 305px;
     @media only screen and (max-width: 768px) {
         margin-bottom: 40px;
         width: 100%;
@@ -730,7 +739,7 @@ margin-top: 20px;
 .footer{
     background: url("/static/Images/footer.png");
     // background: ;
-    background-position: center;
+    background-position: fixed;
     background-size: cover;
 background-repeat: no-repeat;
 padding: 20px 100px 20px 100px;
@@ -791,7 +800,7 @@ position: relative;
     
     background: #00B0F0 0% 0% no-repeat padding-box;
 opacity: 1;
-left: -15px;
+left: -25px;
 top: 0;
 width: 8px;
 height: 100%;

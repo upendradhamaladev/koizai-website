@@ -6,6 +6,7 @@
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
+        background-position: fixed;
         opacity: 1;
        
 
@@ -20,14 +21,22 @@ text-align: left;
 font: normal normal bold 46px/82px "lovelace";
 letter-spacing: 0px;
 color: #FFFFFF;
+display: flex;
+align-items: flex-end;
 
 
 
 background: transparent linear-gradient(180deg, #00000000 0%, #00000080 100%) 0% 0% no-repeat padding-box;
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
     font: normal normal bold 24px/50px "lovelace";
     padding: 30px;
+  }
+  @media only screen and (max-width: 768px) {
+    br{
+        display: none;
+    }
+
   }
         }
         

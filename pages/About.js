@@ -21,14 +21,32 @@ const About = () => {
               </div>
               <div className='left'>
                 <div className='how-name'>ABOUT</div>
+                {/* <br />
                 <br />
                 <br />
-                <br />
-                <br />
+                <br /> */}
 
                 <div className='text-content' style={{ width: '100%' }}>
                   A first in a multi-language modern cross-border financial and
                   wealth management system
+                </div>
+                <div className='middleContent'>
+                  <div className='how-name'>OVERVIEW</div>
+                  <div className='text'>
+                    KoiZai is an AdviceTech solution built to service the
+                    growing needs of the Asian and Australasian regions in
+                    modernising financial planning and wealth management.
+                    <br />
+                    <br /> The system is built on a single platform that could
+                    encompass the unique and different needs of each country,
+                    local users and cross-border clients.
+                    <br />
+                    <br />
+                    We also recognise that many users and stakeholders may not
+                    use English as their first language we can also cater for
+                    the diversity of cultures and languages when people are
+                    dealing with their needs.
+                  </div>
                 </div>
               </div>
               <div className='content-right'>
@@ -39,7 +57,7 @@ const About = () => {
                 />
               </div>
             </div>
-            <div className='middleContent'>
+            {/* <div className='middleContent'>
               <div className='how-name'>OVERVIEW</div>
               <div className='text'>
                 KoiZai is an AdviceTech solution built to service the growing
@@ -56,7 +74,7 @@ const About = () => {
                 diversity of cultures and languages when people are dealing with
                 their needs.
               </div>
-            </div>
+            </div> */}
           </div>
           {/* <div className='content-right'>
             <img
