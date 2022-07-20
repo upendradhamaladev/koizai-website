@@ -3,16 +3,16 @@
 @import "variable";
 @font-face {
   font-family: 'lovelace';
-  src: url('./fonts/Lovelace-Bold.woff') format('woff'),
-      url('./fonts/Lovelace-BoldItalic.woff') format('woff'),
-      url('./fonts/Lovelace-ExtraBold.woff') format('woff'),
-      url('./fonts/Lovelace-ExtraLight.woff') format('woff'),
-      url('./fonts/Lovelace-Italic.woff') format('woff'),
-      url('./fonts/Lovelace-Light.woff') format('woff'),
-      url('./fonts/Lovelace-LightItalic.woff') format('woff'),
-      url('./fonts/Lovelace-Medium.woff') format('woff'),
-      url('./fonts/Lovelace-MediumItalic.woff') format('woff'),
-      url('./fonts/Lovelace-Regular.woff') format('woff');
+  src: url('/static/fonts/Lovelace-Bold.woff') format('woff'),
+      url('/static/fonts/Lovelace-BoldItalic.woff') format('woff'),
+      url('/static/fonts/Lovelace-ExtraBold.woff') format('woff'),
+      url('/static/fonts/Lovelace-ExtraLight.woff') format('woff'),
+      url('/static/fonts/Lovelace-Italic.woff') format('woff'),
+      url('/static/fonts/Lovelace-Light.woff') format('woff'),
+      url('/static/fonts/Lovelace-LightItalic.woff') format('woff'),
+      url('/static/fonts/Lovelace-Medium.woff') format('woff'),
+      url('/static/fonts/Lovelace-MediumItalic.woff') format('woff'),
+      url('/static/fonts/Lovelace-Regular.woff') format('woff');
 font-weight: normal;
 font-style: normal;
 

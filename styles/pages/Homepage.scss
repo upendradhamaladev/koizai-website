@@ -16,7 +16,7 @@ background: #FFFFFF 0% 0% no-repeat padding-box;
 opacity: 1;
 backdrop-filter: blur(24px);
 -webkit-backdrop-filter: blur(24px);
-padding: 30px 150px;
+padding: 30px 100px;
 @media only screen and (max-width: 1350px) {
 //    display: none;
 padding: 30px 30px;
@@ -90,9 +90,15 @@ opacity: 1;
 
         align-items: center;
         justify-content: space-between;
+        @media only screen and (max-width: 992px) {
+            padding-bottom: 5px;
+        }
         .logo{
             img{
                 height: 60px;
+                @media only screen and (max-width: 600px) {
+                   height: 40px;
+                }
 
             }
         }
@@ -102,6 +108,7 @@ opacity: 1;
                 cursor: pointer;
                 // border: 1px solid red;
 height: 30px;
+
             }
         }
         .overlay-menu{
@@ -121,6 +128,8 @@ height: 30px;
             opacity: 1;
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
+          
+
             .top{
                 display: flex;
                 justify-content: space-between;
@@ -129,6 +138,10 @@ height: 30px;
                     img{
                         height: 50px;
         cursor: pointer;
+        @media only screen and (max-width: 768px) {
+            height: 30px;
+           
+         }
                     }
                
 
@@ -138,10 +151,14 @@ height: 30px;
                 // align-items: center;
                 flex-direction: column;
                 margin-top: 60px;
+                
 .menu-list{
     padding-left: 18px;
                     
     margin-bottom:48px;
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 30px;
+     }
 }
                 .menu-item{
                     
@@ -199,11 +216,11 @@ opacity: 1;
         display: none;
         width: 50%;
         margin-left: 100px;
-        margin-top: 50px;
+        // margin-top: 50px;
         
         .heading{
             text-align: left;
-            font: normal normal 800 50px/71px $Montserrat;
+            font: normal normal 800 50px/71px "lovelace";
             letter-spacing: 0px;
             color: #2B2B2B;
             opacity: 1;
@@ -228,6 +245,7 @@ opacity: 1;
             display: none;
            
         }
+       
         .leftContent-new{
             display: block;
             width: 100%;
@@ -241,6 +259,7 @@ opacity: 1;
         .rightContent{
             width: 100% !important;
             padding: 20px 40px;
+            padding-top: 0;
             // border: 1px solid red;
                    
     img:nth-child(1){
@@ -265,7 +284,18 @@ opacity: 1;
     
      
        }
-    
+       @media only screen and (max-width: 600px) {
+           .leftContent-new{
+               .heading{
+                font: normal normal 800 24px/34px "lovelace";
+               }
+               .textContent{
+                font: normal normal normal 16px/35px $Montserrat;
+               }
+           }
+
+       }
+
     .leftContent{
         width: 50%;
         margin-left: 100px;
@@ -323,7 +353,7 @@ opacity: 1;
 .how-section{
     margin-top: 100px;
     background-color: #F3F4FD;
-    padding:50px 30px  50px 150px;
+    padding:50px 30px  50px 100px;
     position: relative;
     @media only screen and (max-width: 768px) {
        padding-left: 16px;
@@ -338,6 +368,10 @@ letter-spacing: 0px;
 color: #505050;
 text-transform: uppercase;
 opacity: 1;
+@media only screen and (max-width: 600px) {
+    font: normal normal 600 16px/31px $Montserrat;
+   
+ }
     &::before{
         content: "";
         width: 51px;
@@ -356,6 +390,13 @@ margin-top: 20px;
 width: 60%;
 @media only screen and (max-width: 768px) {
     width: 100%;
+    // font: normal normal bold 24px/47px "lovelace";
+
+}
+@media only screen and (max-width: 600px) {
+    // width: 100%;
+    font: normal normal bold 24px/47px "lovelace";
+
 }
 }
 .koiFish{
@@ -405,7 +446,7 @@ width: 60%;
                flex-direction: column;
                gap: 5px;
                align-items: flex-start;
-               height: 335px;
+               height: auto;
         
                width: 200px;
 
@@ -465,7 +506,13 @@ padding: 20px 10px;
 width: 100%;
 @media only screen and (max-width: 768px) {
     padding-bottom: 5px;
+    
+
 }
+@media only screen and (max-width: 600px) {
+
+    font: normal normal bold 16px/22px $Montserrat;
+    }
 
 &.active{
    
@@ -498,6 +545,11 @@ letter-spacing: 0px;
 margin-top: 15px;
 color: #505050;
 opacity: 1;
+@media only screen and (max-width: 600px) {
+    font: normal normal normal 16px/35px $Montserrat;
+
+}
+
         }
         img{
             // position: absolute;
@@ -517,7 +569,7 @@ opacity: 1;
 // features
 .features{
 
-        margin-top: 100px;
+        margin-top: 50px;
         // background-color: #F3F4FD;
         padding:50px 150px  50px 150px;
         padding-right: 16px;
@@ -565,6 +617,9 @@ padding-right: 150px;
             color: #505050;
             margin-top: 20px;
             width: 100%;
+            @media only screen and (max-width: 600px) {
+                font: normal normal normal 30px/25px "lovelace";
+            }
             }
             .text-content-right{
                 text-align: left;
@@ -574,6 +629,10 @@ color: #848484;
 width: 100%;
 
 opacity: 1;
+@media only screen and (max-width: 600px) {
+    font: normal normal normal 16px/35px $Montserrat;
+}
+
             }
 
         }
@@ -794,6 +853,12 @@ color: #FFFFFF;
 opacity: 1;
 margin-top: 30px;
 position: relative;
+@media only screen and (max-width: 600px) {
+    
+    font: normal normal 800 30px/40px "lovelace";
+
+}
+
 &::before{
     content:"";
     position: absolute;

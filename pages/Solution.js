@@ -45,7 +45,7 @@ const Solution = () => {
               <div className='idx idx-left'>02</div>
             </div>
             <div className='text'>
-              <div className='idx i idx-left-new'>03 </div>
+              <div className='idx  idx-left-new'>03 </div>
 
               <div className='content'>
                 The noise of promising an developing advanced technologies.
@@ -91,48 +91,7 @@ const Solution = () => {
       </div>
       <br />
       <br />
-      {/* <div className='help-section'>
-        <div className='how-name'>OUR CONTRIUTION</div>
-
-        <div className='text-content'>
-          How KoiZai <br /> can help?{' '}
-        </div>
-        <div className='text-content-1'>
-          KoiZai AdviceTech system and solution provides financial advisory
-          businesses cutting edge and simple advisory managementand client
-          engagement solution. Our solution focuses on the advice process based
-          on three simple key principles.
-        </div>
-        <div className='cards'>
-          <div className='card card-1'>
-            <div className='text'>
-              <div className='title'>Enablement</div>
-              <div className='text'>
-                Our team has undertaken the challenge to create and unrivalled
-                adviser client and business management platform.
-              </div>
-            </div>
-          </div>
-          <div className='card card-2'>
-            <div className='text'>
-              <div className='title'>Management</div>
-              <div className='text'>
-                Our team has undertaken the challenge to create and unrivalled
-                adviser client and business management platform.
-              </div>
-            </div>
-          </div>
-          <div className='card card-3'>
-            <div className='text'>
-              <div className='title'>Engagement</div>
-              <div className='text'>
-                Our team has undertaken the challenge to create and unrivalled
-                adviser client and business management platform.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
+     
       <div className='key-mission'>
         <div className='how-name'>OUR FOCUS</div>
         {/* <div className='text-top'> */}

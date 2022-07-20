@@ -87,7 +87,7 @@ const About = () => {
         <div className='koizai-meaning'>
           <div className='inner'>
             <div className='how-name'>MEANING</div>
-            <div className='text-content' style={{ width: '30%' }}>
+            <div className='text-content' >
               The meaning of Koizai
             </div>
             <div className='subtext'>

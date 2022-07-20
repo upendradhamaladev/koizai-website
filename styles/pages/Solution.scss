@@ -1,5 +1,5 @@
 .solutionCover{
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 150px;
     display: flex;
     background: linear-gradient(180deg, #D6D6D6 0%, rgba(255, 255, 255, 0) 100%);    background-size: cover;
@@ -20,12 +20,18 @@
 width: 50%;
 @media only screen and (max-width: 768px) {
    width: 100%;
+   
 }
 .text{
     text-align: left;
     font: normal normal bold 40px/82px "lovelace";
         letter-spacing: 0px;
     color: #505050;
+    @media only screen and (max-width: 600px) {
+        margin-top: 10px;
+         font: normal normal bold 24px/40px "lovelace";
+       
+     }
 }
 .title{
     text-align: left;
@@ -93,6 +99,15 @@ width: 50%;
         align-items: center;
         gap: 10px;
         justify-content: space-between;
+        background: url('/static/Images/map.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        @media only screen and (max-width: 992px) {
+            background:none;
+        }
+
+
         .text{
             padding: 17px 23px;
             background: transparent linear-gradient(109deg, #FFFFFF 0%, #F3F3F3 100%) 0% 0% no-repeat padding-box;
@@ -112,11 +127,13 @@ border-bottom-left-radius: 40px;
             .idx-left-new{display: none !important;}
         }
 
+
         @media only screen and (max-width: 992px) {
             .idx-right{
 border-radius: 0px 60px !important;
 
             }
+            
             height: 100% ;
             .text{
                 margin-bottom: 30px !important;
@@ -150,9 +167,13 @@ padding: 18px 14px;
                 display: none !important;
             }
          }
-        // @media only screen and (max-width: 768px) {
-        //     flex-direction: column;
-        //  }
+        @media only screen and (max-width: 600px) {
+            .idx-right{
+                box-shadow: 0px 3px 40px #0000000D !important;
+border-radius: 0px 30px !important;
+opacity: 1;
+            }
+         }
         .text{
             display: flex;
             gap:20px;
@@ -192,6 +213,13 @@ padding: 18px 14px;
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+    padding: 20px;
+height: 138px;
+    @media only screen and (max-width: 600px) {
+        font: normal normal normal 30px/41px $Montserrat;
+// height: 100px;
+height: auto;
+    }
     // &:hover{
     //     color: #00B0F0;
 
@@ -200,18 +228,25 @@ padding: 18px 14px;
 }
 .idx-left,.idx-right, .idx-left-new{
     // width: 136px;
-    padding: 20px;
-height: 138px;
+    
 background: #00B0F0 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 40px #0000000D;
 border-radius: 0px 60px;
 text-align: center;
 opacity: 1;
 letter-spacing: 0px;
+@media only screen and (max-width: 600px) {
+    box-shadow: 0px 3px 40px #0000000D;
+    border-radius: 0px 30px;
+    opacity: 1;
+}
 
 }
 .idx-right{
     border-radius: 60px 0px;
+    @media only screen and (max-width: 600px) {
+        
+    }
 
 }
 .content{
@@ -221,6 +256,10 @@ letter-spacing: 0px;
     letter-spacing: 0px;
     color: #848484;
     opacity: 1;
+    @media only screen and (max-width: 600px) {
+        
+        font: normal normal 500 16px/28px $Montserrat;       
+     }
     // &:hover{
     //     color: #FFFFFF;
 
@@ -293,6 +332,11 @@ letter-spacing: 0px;
 font: normal normal 500 18px/30px $Montserrat;
 letter-spacing: 0px;
 color: #FFFFFF;
+@media only screen and (max-width: 1250px) {
+    z-index: 1000;
+    color: black;
+}
+
 
         }}
            .inner-content{
@@ -480,6 +524,12 @@ font: normal normal 500 24px/35px $Montserrat;
 letter-spacing: 0px;
 color: #848484;
 opacity: 1;
+@media only screen and (max-width: 600px) {
+    font: normal normal normal 16px/35px $Montserrat;
+    br{
+        display: none;
+    }
+}
     }
     .cards-section{
         display: flex;
@@ -503,7 +553,7 @@ width: 33.33%;
 }
 @media only screen and (max-width:500px) {
     width: 100%;
-    height: 500px;
+    height: 450px;
 }
             .title{
                 text-align: left;
@@ -511,6 +561,9 @@ width: 33.33%;
                 letter-spacing: 0px;
                 color: #505050;
                 opacity: 1;
+                @media only screen and (max-width: 600px) {
+                    font: normal normal 500 20px/31px $Montserrat;
+                }
             }
             .content{
                 text-align: left;
@@ -519,6 +572,8 @@ width: 33.33%;
                 color: #848484;
                 opacity: 1;
                 margin-top: 20px;
+                @media only screen and (max-width: 600px) {
+                    font: normal normal normal 14px/34px $Montserrat;                }
             }
             img{
                 object-fit: contain;
