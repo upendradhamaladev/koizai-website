@@ -84,6 +84,9 @@ width: 50%;
         font-family: "lovelace";
         margin: auto;
       text-align: center;
+      @media only screen and (max-width: 768px) {
+          width: 100%;
+      }
 
     }
     .animationsection{
