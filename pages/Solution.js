@@ -199,10 +199,10 @@ const Solution = () => {
           </div>
         </div>
       </div>
-      <div className='culture-section'>
+      {/* <div className='culture-section'>
         <div className='left'>
           <div className='how-name'>OUR CULTURE</div>
-          {/* <div className='text-top'> */}
+        
           <div className='text-content'>
             Diversity of Cultures <br /> and Languages
           </div>
@@ -220,7 +220,7 @@ const Solution = () => {
         <div className='right'>
           <img src='./SolutionImages/culture.png' alt='' />
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   )

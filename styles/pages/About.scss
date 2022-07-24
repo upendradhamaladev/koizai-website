@@ -109,7 +109,7 @@ margin-top: 100px;
         .text{
           margin-top: 30px;
           text-align: left;
-font: normal normal normal 24px/35px $Montserrat;
+font: normal normal normal 22px/33px $Montserrat;
 letter-spacing: 0px;
 color: #848484;
 opacity: 1;
@@ -134,7 +134,7 @@ opacity: 1;
     padding-top: 80px;
     background: #F2F2F2 0% 0% no-repeat padding-box;
     .inner{
-      padding-left: 220px;
+      padding-left: 100px;
       @media only screen and (max-width: 768px) {
        padding:0 16px;
       }
@@ -249,6 +249,12 @@ width: 500px;
 object-fit: cover;
 height: 500px;
 cursor: pointer;
+@media only screen and (max-width: 1250px) {
+  //    display: none;
+  width: 350px;
+  height: 350px;
+  
+    }
 @media only screen and (max-width: 992px) {
   //    display: none;
   width: 300px;
@@ -307,7 +313,7 @@ color: #D7B615;
   }
   .associates{
     background: transparent linear-gradient(180deg, #FFFFFF00 0%, #EDF1F8 100%) 0% 0% no-repeat padding-box;
-    padding-left: 220px;
+    padding-left: 100px;
     margin-top: 150px;
     @media only screen and (max-width: 768px) {
       padding: 0 16px;
@@ -365,12 +371,13 @@ color: #D7B615;
   gap: 30px;
   @media only screen and (max-width: 768px) {
     padding-right: 0;
+    margin: 30px 0;
 
   }
   img{
     height: 82px;
 object-fit: contain;
-min-width: 200px;
+width: 200px;
   }
 
 }
@@ -470,7 +477,7 @@ opacity: 1;
 .dot{
   position: absolute;
   width: 15px;
-  top: 20%;
+  top: 18%;
   left: 50%;
   transform: translate(-50%,-50%);
   height: 15px;
@@ -483,7 +490,7 @@ opacity: 1;
   .dot-1st{
     position: absolute;
     width: 15px;
-   top: 33%;
+   top: 32%;
     left: 50%;
     transform: translate(-50%,-50%);
     height: 15px;
@@ -509,7 +516,7 @@ opacity: 1;
       .dot-3rd{
         position: absolute;
         width: 15px;
-       top: 81%;
+       top: 80%;
         left: 50%;
         transform: translate(-50%,-50%);
         height: 15px;
