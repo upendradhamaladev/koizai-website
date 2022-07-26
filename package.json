@@ -11,10 +11,13 @@
   "dependencies": {
     "next": "12.1.6",
     "node-sass": "^7.0.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "react-youtube": "^9.0.3",
+    "redux": "^4.2.0",
+    "slick-carousel": "^1.8.1",
+    "video-react": "^0.15.0"
   },
   "devDependencies": {
     "eslint": "8.18.0",

@@ -11,8 +11,8 @@ const Footer = () => {
         <div className='content'>
           <span>
             {' '}
-            Rm 1211, 15/F, Soundwill Plaza II-Midtown, 1-29 Tang Lung Street,
-            Causeway Bay, Hong Kong
+            15/F, Soundwill Plaza II-Midtown, 1-29 Tang Lung Street, Causeway
+            Bay, Hong Kong
           </span>
           <span>info@koizai.com</span>
         </div>

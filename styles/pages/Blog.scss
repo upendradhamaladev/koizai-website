@@ -1,8 +1,314 @@
 .blog{
-    display: flex;
-    margin-top: 100px;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 114px;
+   .coverTop{
+    background: transparent linear-gradient(267deg, #0A7C9F1A 0%, #2881A80D 100%) 0% 0% no-repeat padding-box;
+padding: 100px 100px;
+padding-top: 130px;
+height: 681px;
+display: flex;
+
+position: relative;
+       .textContent{
+        text-align: left;
+        font: normal normal bold 60px/75px "lovelace";
+        letter-spacing: 0px;
+        color: $primaryTextColor;
+        width: 60%;
+        align-self: flex-end;
+
+       }
+       img{
+position: absolute;
+top: 55px;
+width: 323px;
+height: 549px;
+right: 200px;
+
+
+       }
+
+@media only screen and (max-width: 1400px) {
+    img{
+    right: 100px;
+    }
+
 }
+@media only screen and (max-width: 992px) {
+    img{
+    right: 50px;
+    width: 250px;
+    height: 450px;
+    }
+    .textContent{
+        font: normal normal bold 46px/67px "lovelace";
+
+    }
+}
+@media only screen and (max-width: 600px) {
+    // width: 390px;
+height: 403px;
+padding: 16px;
+    img{
+    right: 0px;
+    width: 93px;
+    height: 158px;
+    }
+    .textContent{
+        font: normal normal bold 24px/50px "lovelace";
+    }
+}
+
+
+   }
+   .blog-content{
+       margin-top: 61px;
+       align-items: flex-start;
+       gap: 16px;
+       @media only screen and (max-width: 992px) {
+           flex-direction: column;
+           padding-left: 19px;
+           padding-right: 19px;
+           .left{
+               width: 100% !important;
+           }
+           .right{
+               width: 100% !important;
+           }
+
+       }
+
+       .left{
+           width: 70%;
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           gap: 35px 15px;
+           align-items: flex-start;
+
+           .news-card{
+            // width: 536px;
+
+               .blogImage{
+                   width: 100%;
+                // width: 536px;
+                margin-bottom: 27px;
+               }
+               .category{
+                background: #F2F2F2 0% 0% no-repeat padding-box;
+                border-radius: 50px;
+                text-align: left;
+font: normal normal normal 12px/34px $Montserrat;
+letter-spacing: 0px;
+color: $primaryTextColor;
+padding: 8px 16px;
+margin-bottom: 22px;
+               }
+               .title{
+                text-align: left;
+                font: normal normal bold 24px/34px "lovelace";
+                letter-spacing: 0px;
+                color: $primaryTextColor;
+               }
+               .content,a{
+                text-align: left;
+                font: normal normal normal 16px/34px $Montserrat;
+                letter-spacing: 0px;
+                color: #848484;
+                margin-top: 13px;
+                margin-bottom: 36px;
+               }
+               a{
+                   display: inline;
+                   margin-left: 20px;
+                   color: #00B0F0;
+
+               }
+            //    a:hover{
+            //        color: #00B0F0;
+            //    }
+               .contentIs{
+                   margin-bottom: 10px;
+                   display: inline;
+               }
+               .detail{
+                   .left-inner{
+
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 12px;
+                    
+.person{
+    width: 52px;
+height: 52px;
+}
+                       .description{
+       
+                           height: 100%;
+                           gap: 6px;
+                           .name{
+                            text-align: left;
+                            font: normal normal 500 20px/31px $Montserrat;
+                            letter-spacing: 0px;
+                            color: $primaryTextColor;
+                           }
+                           .designation{
+                            font: normal normal 500 12px/23px $Montserrat;
+                            letter-spacing: 0px;
+                            color: #848484;
+                           }
+                       }
+
+                   }
+                   .right-inner{
+                       gap: 13px;
+                       justify-content: flex-start;
+                       .dateIcon{
+                        width: 13px;
+                        height: 13px;
+                       }
+                       .date{
+                        text-align: left;
+                        font: normal normal 500 14px/23px $Montserrat;
+                        letter-spacing: 0px;
+                        color: $primaryTextColor;
+                       }
+
+                   }
+
+               }
+           }
+
+     
+     
+     
+     
+           
+        }
+       .right{
+           width: 30%;
+           .title,.popular-blogs-title{
+            font: normal normal 600 24px/29px $Montserrat;
+letter-spacing: 0px;
+color: $primaryTextColor;
+opacity: 1;
+margin-bottom: 8px;
+        }
+        .categories{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-flow: wrap;
+            margin-bottom: 58px;
+            .category-outer{
+                background: #F2F2F2 0% 0% no-repeat padding-box;
+border-radius: 8px;
+opacity: 1;
+font: normal normal normal 14px/34px $Montserrat;
+letter-spacing: 0px;
+color: $primaryTextColor;
+padding: 5px 13px;
+&.active{
+    background: #00B0F0 0% 0% no-repeat padding-box;
+    color: white;
+}
+                .number{
+                    margin-left: 15px;
+
+                }
+            }
+           
+        }
+        .popular-blogs{
+            .content-popular{
+                gap: 13px;
+                margin-bottom: 17px;
+                justify-content: flex-start;
+                .imgblogpop{
+            
+                    width: 135px;
+                    height: 135px
+                }
+                .right-popular{
+                    margin-bottom: 17px;
+                    display: block;
+                    .title{
+                        font: normal normal bold 20px/33px "lovelace";
+            letter-spacing: 0px;
+            color: $primaryTextColor;
+                    }
+                    .dateIs{
+                        justify-content: flex-start;
+                        gap: 13px;
+                        .dateIcon{
+                            width: 13px;
+height: 13px;
+
+                        }
+                        .date{
+                            font: normal normal 500 14px/23px $Montserrat;
+                        letter-spacing: 0px;
+                        color: $primaryTextColor;
+                        }
+                    }
+            
+                }
+                
+            }
+                        }
+
+       }
+       @media only screen and (max-width: 1300px) {
+           .left{
+.detail{
+   
+    .person{
+        width: 40px;
+        height: 40px;
+
+    }
+    .description{
+       
+        .name{
+            font: normal normal 500 15px/28px $Montserrat;
+
+        }
+        .designation{
+            font: normal normal 500 9px/20px $Montserrat;
+
+        }
+    }
+}
+           }
+           .right{
+               .categories{
+                   .category-outer{
+                    font: normal normal normal 11px/31px $Montserrat;
+
+                   }
+               }
+
+           }
+               
+
+    }
+    @media only screen and (max-width: 992px) {
+        .left{
+            grid-template-columns: 1fr;
+.news-card{
+//  width: 300px;
+
+ .blogImage{
+     // width: 450px;
+ }
+}
+        }
+        .right{
+           
+        }
+            
+
+ }
+    
+}
+}
+// blog content
+
