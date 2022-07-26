@@ -690,7 +690,7 @@ margin-top: 20px;
     padding-bottom: 50px;
     display: flex;
     align-items: center;
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 100px;
     @media only screen and (max-width:768px) {
         padding: 0 16px;
@@ -709,6 +709,13 @@ background: #F3F4FD 0% 0% no-repeat padding-box;
 width: 40%;
 @media only screen and (max-width:768px) {
     width: 100%;
+    .text-content{
+        width: 100%;
+        br{
+            display: none;
+            
+        }
+    }
 }
 .text-content{
     font-family: "lovelace";

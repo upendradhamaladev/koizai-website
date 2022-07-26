@@ -199,7 +199,7 @@ const Solution = () => {
           </div>
         </div>
       </div>
-      {/* <div className='culture-section'>
+      <div className='culture-section'>
         <div className='left'>
           <div className='how-name'>OUR CULTURE</div>
         
@@ -215,12 +215,12 @@ const Solution = () => {
             be-spoking the platform to meet local cultural needs where
             appropriate.
           </div>
-          <div className='know-more'>Know more about us</div>
+          {/* <div className='know-more'>Know more about us</div> */}
         </div>
         <div className='right'>
           <img src='./SolutionImages/culture.png' alt='' />
         </div>
-      </div> */}
+      </div>
       <Footer />
     </>
   )
