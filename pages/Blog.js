@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import NewsCard from './components/NewsCard'
-import NewsData from './components/Data'
+import { NewsData } from './components/Data'
 const Blog = () => {
   return (
     <>
@@ -49,10 +49,11 @@ const Blog = () => {
               <div className='popular-blogs'>
                 <div className='popular-blogs-title'>Popular</div>
                 {NewsData.slice(-4).map((datum, id) => (
-                  <a key={id}
+                  <a
+                    key={id}
                     style={{ cursor: 'pointer' }}
                     href={datum.link}
-                    rel="noreferrer"
+                    rel='noreferrer'
                     target='_blank'
                     className='content-popular d-flex-row'
                   >

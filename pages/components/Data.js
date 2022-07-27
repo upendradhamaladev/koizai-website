@@ -69,4 +69,4 @@ const NewsData = [
   },
 ]
 
-export default NewsData
+export { NewsData}
