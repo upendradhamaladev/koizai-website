@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 const About = () => {
   const currentYear = new Date().getFullYear()
   return (
@@ -248,3 +248,10 @@ const About = () => {
 }
 
 export default About
+
+
+export async function getServerSideProps(context) {
+    return {
+        props: {},
+    };
+}

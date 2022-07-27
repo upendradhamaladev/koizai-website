@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 const Contact = () => {
   return (
     <>
@@ -69,7 +69,7 @@ const Contact = () => {
             style={{ border: 0 }}
             allowFullScreen=''
             loading='lazy'
-            referrerpolicy='no-referrer-when-downgrade'
+            referrerPolicy='no-referrer-when-downgrade'
           ></iframe>
         </div>
       </div>
@@ -79,3 +79,10 @@ const Contact = () => {
 }
 
 export default Contact
+
+
+export async function getServerSideProps(context) {
+  return {
+      props: {},
+  };
+}

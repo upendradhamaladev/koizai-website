@@ -1,10 +1,9 @@
 import React from 'react'
 
-import YouTube from 'react-youtube'
 
-const NewsCard = ({ key, image, video, title, content, link, date }) => {
+const NewsCard = ({ id, image, video, title, content, link, date }) => {
   return (
-    <div key={key} className='news-card'>
+    <div key={id} className='news-card'>
       {image ? (
         <img src={image} alt='date' className='blogImage' />
       ) : (

@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import NewsCard from './components/NewsCard'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import NewsCard from '../components/NewsCard'
 import NewsData from '../Data/Data'
 const Blog = () => {
   return (
@@ -20,7 +20,7 @@ const Blog = () => {
               {console.log(NewsData)}
               {NewsData.map((datum, id) => (
                 <NewsCard
-                  key={id}
+                  id={id}
                   image={datum?.image}
                   video={datum.url}
                   title={datum.title}
@@ -85,3 +85,10 @@ const Blog = () => {
 }
 
 export default Blog
+
+
+export async function getServerSideProps(context) {
+  return {
+      props: {},
+  };
+}
