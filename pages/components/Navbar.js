@@ -53,18 +53,18 @@ const Navbar = () => {
             >
               Solutions
             </span>
-            <span
+            {/* <span
               className={`menu-item ${currentPage === 'Ecosystem' && 'active'}`}
               onClick={() => router.push('/Ecosystem')}
             >
               Ecosystem
-            </span>
-            <span
+            </span> */}
+            {/* <span
               className={`menu-item ${currentPage === 'Diversity' && 'active'}`}
               onClick={() => router.push('/Diversity')}
             >
               Diversity
-            </span>
+            </span> */}
             <span
               className={`menu-item ${currentPage === 'Blog' && 'active'}`}
               onClick={() => router.push('/Blog')}
@@ -135,7 +135,7 @@ const Navbar = () => {
                   Solutions
                 </span>
               </div>
-              <div className='menu-list'>
+              {/* <div className='menu-list'>
                 <span
                   className={`menu-item ${
                     currentPage === 'Ecosystem' && 'active'
@@ -144,8 +144,8 @@ const Navbar = () => {
                 >
                   Ecosystem
                 </span>
-              </div>
-              <div className='menu-list'>
+              </div> */}
+              {/* <div className='menu-list'>
                 <span
                   className={`menu-item ${
                     currentPage === 'Diversity' && 'active'
@@ -154,7 +154,7 @@ const Navbar = () => {
                 >
                   Diversity
                 </span>
-              </div>
+              </div> */}
               <div className='menu-list'>
                 <span
                   className={`menu-item ${currentPage === 'Blog' && 'active'}`}
