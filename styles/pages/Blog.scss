@@ -139,6 +139,9 @@ margin-bottom: 22px;
 .person{
     width: 52px;
 height: 52px;
+box-shadow: 0px 3px 28px #00000045;
+border: 1px solid #FFFFFF;
+border-radius: 50%;
 }
                        .description{
        
@@ -192,6 +195,12 @@ color: $primaryTextColor;
 opacity: 1;
 margin-bottom: 8px;
         }
+        .popular-blogs-title{
+            @media only screen and (max-width: 992px) {
+                margin-top: 60px;
+
+            }
+        }
         .categories{
             display: flex;
             align-items: center;
@@ -225,7 +234,12 @@ padding: 5px 13px;
                 .imgblogpop{
             
                     width: 135px;
-                    height: 135px
+                    height: 135px;
+                    @media only screen and (max-width: 768px) {
+                        width: 200px;
+                        height: 200px;
+
+                    }
                 }
                 .right-popular{
                     margin-bottom: 17px;
@@ -234,6 +248,11 @@ padding: 5px 13px;
                         font: normal normal bold 20px/33px "lovelace";
             letter-spacing: 0px;
             color: $primaryTextColor;
+            @media only screen and (max-width: 600px) {
+                font: normal normal bold 16px/29px "lovelace";
+
+            }
+
                     }
                     .dateIs{
                         justify-content: flex-start;
@@ -263,6 +282,7 @@ height: 13px;
     .person{
         width: 40px;
         height: 40px;
+        
 
     }
     .description{

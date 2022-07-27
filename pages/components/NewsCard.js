@@ -28,7 +28,7 @@ const NewsCard = ({ key, image, video, title, content, link, date }) => {
 
       <div className='detail d-flex-row'>
         <div className='left-inner d-flex-row'>
-          <img src='./Images/person1.png' alt='man' className='person' />
+          <img src='./Images/donald.jpg' alt='man' className='person' />
           <div className='description d-flex-col'>
             <div className='name'>Donald Soo</div>
             <div className='designation'>CEO, Koizai</div>
