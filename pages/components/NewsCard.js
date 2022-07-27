@@ -17,7 +17,8 @@ const NewsCard = ({ key, image, video, title, content, link, date }) => {
           <div className='contentIs content'>
             {content.substring(0, 150)}...
           </div>
-          <a target='_blank' href={link}>
+          <a target='_blank' href={link} 
+          rel="noreferrer">
             Read More
           </a>
         </>

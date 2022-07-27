@@ -49,9 +49,10 @@ const Blog = () => {
               <div className='popular-blogs'>
                 <div className='popular-blogs-title'>Popular</div>
                 {NewsData.slice(-4).map((datum, id) => (
-                  <a
+                  <a key={id}
                     style={{ cursor: 'pointer' }}
                     href={datum.link}
+                    rel="noreferrer"
                     target='_blank'
                     className='content-popular d-flex-row'
                   >

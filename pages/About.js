@@ -232,7 +232,7 @@ const About = () => {
           className='associate'
           src='./AboutImages/morningstar.png'
           alt=''
-          className='associate'
+       
         />
 
         <img
