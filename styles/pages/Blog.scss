@@ -55,8 +55,25 @@ padding: 16px;
     }
     .textContent{
         font: normal normal bold 24px/50px "lovelace";
+        width: 70%;
+        
     }
 }
+@media only screen and (max-width:500px) {
+    // width: 390px;
+    height: 294px;
+
+padding: 16px;
+    img{
+    right: 0px;
+    width: 93px;
+    height: 158px;
+    }
+    .textContent{
+        font: normal normal bold 24px/50px "lovelace";
+    }
+}
+
 
 
    }
@@ -66,8 +83,8 @@ padding: 16px;
        gap: 16px;
        @media only screen and (max-width: 992px) {
            flex-direction: column;
-           padding-left: 19px;
-           padding-right: 19px;
+        //    padding-left: 19px;
+        //    padding-right: 19px;
            .left{
                width: 100% !important;
            }
@@ -86,6 +103,7 @@ padding: 16px;
 
            .news-card{
             // width: 536px;
+            
 
                .blogImage{
                    width: 100%;
@@ -178,6 +196,55 @@ border-radius: 50%;
                    }
 
                }
+               @media only screen and (max-width:992px) {
+                #player,.blogImage{
+                    height: 303px;
+
+                }
+            }
+               @media only screen and (max-width:600px) {
+                #player,.blogImage{
+                    height: 243px;
+                    margin-bottom: 19px;
+
+                }
+                //    margin-bottom: ;
+.category{
+    margin-top: 19px;
+    font: normal normal normal 12px/34px $Montserrat;
+
+}
+.title{
+    margin-top: 20px;
+    font: normal normal bold 18px/34px "lovelace";
+}
+.content,a{
+    font: normal normal normal 14px/34px $Montserrat;
+}
+
+.detail{
+    margin-top: 13px;
+    margin-bottom: 48px;
+    .description{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .name{
+        font: normal normal 500 20px/31px $Montserrat;
+
+    }
+    .designation{
+        font: normal normal 500 12px/23px $Montserrat;
+    }
+    
+    .date{
+        font: normal normal 500 12px/23px $Montserrat;
+
+    }
+}
+
+            }
            }
 
      
@@ -240,16 +307,33 @@ padding: 5px 13px;
                         height: 200px;
 
                     }
+                    @media only screen and (max-width: 600px) {
+                        width: 135px;
+                        height: 125px;
+                        
+
+                    }
                 }
                 .right-popular{
                     margin-bottom: 17px;
                     display: block;
+                    @media only screen and (max-width: 600px) {
+                        margin-bottom: 0;
+                    }
+
+
                     .title{
                         font: normal normal bold 20px/33px "lovelace";
             letter-spacing: 0px;
             color: $primaryTextColor;
+            padding: 5px 0;
+            @media only screen and (max-width: 1400px) {
+                font: normal normal bold 17px/28px "lovelace";
+
+            }
             @media only screen and (max-width: 600px) {
-                font: normal normal bold 16px/29px "lovelace";
+                font: normal normal bold 16px/24px "lovelace";
+                margin-bottom: 13px;
 
             }
 
@@ -266,6 +350,9 @@ height: 13px;
                             font: normal normal 500 14px/23px $Montserrat;
                         letter-spacing: 0px;
                         color: $primaryTextColor;
+                        @media only screen and (max-width: 600px) {
+                            font: normal normal 500 14px/23px $Montserrat;            
+                        }
                         }
                     }
             

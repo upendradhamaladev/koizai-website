@@ -8,7 +8,7 @@ const NewsCard = ({ key, image, video, title, content, link, date }) => {
       {image ? (
         <img src={image} alt='date' className='blogImage' />
       ) : (
-        <iframe width='100%' height='315' src={video}></iframe>
+        <iframe width='100%' className='iframe-customize' height='315' src={video}></iframe>
       )}
       <span className='category'>Technology</span>
       <div className='title'>{title}</div>

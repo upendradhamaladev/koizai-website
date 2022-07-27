@@ -204,7 +204,7 @@ const Solution = () => {
           <div className='how-name'>OUR CULTURE</div>
         
           <div className='text-content'>
-            Diversity of Cultures <br /> and Languages
+            Diversity of Cultures and Languages
           </div>
           <div className='text-content-1'>
             With our Asian DNA, we believe in the diversity of cultures and

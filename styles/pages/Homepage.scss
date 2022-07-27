@@ -437,7 +437,7 @@ width: 60%;
         @media only screen and (max-width: 768px) {
             width: 100%;
             display: flex;
-            align-items: center;
+            // align-items: center;
             // justify-content: space-between;
             gap: 45px;
             flex-wrap: wrap;
@@ -460,7 +460,7 @@ width: 60%;
                align-items: flex-start;
                height: auto;
         
-               width: 200px;
+               width: 140px;
 
             }
             
@@ -630,7 +630,7 @@ padding-right: 150px;
             margin-top: 20px;
             width: 100%;
             @media only screen and (max-width: 600px) {
-                font: normal normal normal 30px/25px "lovelace";
+                font: normal normal normal 30px/30px "lovelace";
             }
             }
             .text-content-right{
@@ -1088,6 +1088,11 @@ margin-top: 10px;
         // display: flex;
         // align-items: center;
         // justify-content: center;
+        @media only screen and (max-width: 600px) {
+            margin-top: 10px !important;
+
+
+        }
     }
    
 

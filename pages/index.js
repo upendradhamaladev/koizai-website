@@ -53,14 +53,13 @@ const HomePage = () => {
         </div>
         <div className='leftContent-new'>
           <div className='heading'>
-            Simplifying The Modern Financial Advice and Management Journey
+            Modernising The Financial Advisory Solution With Applied Fintech{' '}
           </div>
           <div className='textContent'>
-            Modernise the way you engage with clients and manage your financial
-            management business by using leading edge technology powered by
-            KoiZai
+            Empower and democratise the financial advisory and management
+            industry with collaborative and leading edge technology.
           </div>
-          <div className='btn-primary btn-start'>Get Started</div>
+          <div className='btn-primary btn-start'>Book Demo</div>
         </div>
         {/* how section */}
       </div>
