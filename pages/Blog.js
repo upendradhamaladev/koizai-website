@@ -20,6 +20,7 @@ const Blog = () => {
               {console.log(NewsData)}
               {NewsData.map((datum, id) => (
                 <NewsCard
+                  key={id}
                   id={id}
                   image={datum?.image}
                   video={datum.url}
@@ -86,9 +87,8 @@ const Blog = () => {
 
 export default Blog
 
-
 export async function getServerSideProps(context) {
   return {
-      props: {},
-  };
+    props: {},
+  }
 }
