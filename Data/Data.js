@@ -1,30 +1,30 @@
 const NewsData = [
-  {
-    _id: 1,
-    title: 'Innovation-Insights Series 1',
-    // content:
-    //   'We are delighted to launch innovation-insights as a new video series providing you with short insights and opinions from key business experts.Our launch innovation-insights gleans information and opinions on the metaverse and crypto from Donald Soo who is a member of our InvestorsInnerCircle and  Founder & CEO of Pyrmont Wealth Management Ltd | Koizai Ltd.',
-    url: 'https://www.youtube.com/embed/5L8uY9Bd6ow',
-  },
-  {
-    _id: 2,
-    title: 'Innovation-Insights Series 1.2 ',
-    // content:
-    //   'Our second in the series with Donald Soo explores the concept of the metaverse.There has been much hype about this concept. It is interesting to note a Forbes article ( March 10, 2022) commenting on the concept:“Since Facebook changed its name to Meta, the term has been in decline in relevance as Facebook has not presented a coherent vision for the concept, nor any of its blockchain competitors”.Donald is an experienced regulated licensed advisor in Asia and based in Hong Kong with extensive knowledge in ASEAN financial regulations, financial advisory, banking, fund management and private equity – he is a member of the InvestorsInner Circle with InnovatorsClubAsia®. He has grown up with computer games so apt for us to glean his insights.',
-    url: 'https://www.youtube.com/embed/bXYC8gJKieM',
-  },
-  {
-    _id: 3,
-    title: 'Donald Soo Part 2 Motivation and Community    ',
-    content: '',
-    url: 'https://www.youtube.com/embed/edBkm8DakdE',
-  },
-  {
-    _id: 4,
-    title: 'Donald Soo Part 3 Strategy    ',
-    content: '',
-    url: 'https://www.youtube.com/embed/3Ia8MFqt7RY',
-  },
+  // {
+  //   _id: 1,
+  //   title: 'Innovation-Insights Series 1',
+  //   // content:
+  //   //   'We are delighted to launch innovation-insights as a new video series providing you with short insights and opinions from key business experts.Our launch innovation-insights gleans information and opinions on the metaverse and crypto from Donald Soo who is a member of our InvestorsInnerCircle and  Founder & CEO of Pyrmont Wealth Management Ltd | Koizai Ltd.',
+  //   url: 'https://www.youtube.com/embed/5L8uY9Bd6ow',
+  // },
+  // {
+  //   _id: 2,
+  //   title: 'Innovation-Insights Series 1.2 ',
+  //   // content:
+  //   //   'Our second in the series with Donald Soo explores the concept of the metaverse.There has been much hype about this concept. It is interesting to note a Forbes article ( March 10, 2022) commenting on the concept:“Since Facebook changed its name to Meta, the term has been in decline in relevance as Facebook has not presented a coherent vision for the concept, nor any of its blockchain competitors”.Donald is an experienced regulated licensed advisor in Asia and based in Hong Kong with extensive knowledge in ASEAN financial regulations, financial advisory, banking, fund management and private equity – he is a member of the InvestorsInner Circle with InnovatorsClubAsia®. He has grown up with computer games so apt for us to glean his insights.',
+  //   url: 'https://www.youtube.com/embed/bXYC8gJKieM',
+  // },
+  // {
+  //   _id: 3,
+  //   title: 'Donald Soo Part 2 Motivation and Community    ',
+  //   content: '',
+  //   url: 'https://www.youtube.com/embed/edBkm8DakdE',
+  // },
+  // {
+  //   _id: 4,
+  //   title: 'Donald Soo Part 3 Strategy    ',
+  //   content: '',
+  //   url: 'https://www.youtube.com/embed/3Ia8MFqt7RY',
+  // },
   {
     _id: 5,
     title: 'Malabar AI offers clients the 720-degree solution   ',

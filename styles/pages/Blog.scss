@@ -4,13 +4,13 @@
     background: transparent linear-gradient(267deg, #0A7C9F1A 0%, #2881A80D 100%) 0% 0% no-repeat padding-box;
 padding: 100px 100px;
 padding-top: 130px;
-height: 681px;
+height: 550px;
 display: flex;
 
 position: relative;
        .textContent{
         text-align: left;
-        font: normal normal bold 60px/75px "lovelace";
+        font: normal normal bold 50px/65px "lovelace";
         letter-spacing: 0px;
         color: $primaryTextColor;
         width: 60%;
@@ -21,7 +21,7 @@ position: relative;
 position: absolute;
 top: 55px;
 width: 323px;
-height: 549px;
+height: 450px;
 right: 200px;
 
 
@@ -40,7 +40,7 @@ right: 200px;
     height: 450px;
     }
     .textContent{
-        font: normal normal bold 46px/67px "lovelace";
+        font: normal normal bold 40px/60px "lovelace";
 
     }
 }
@@ -103,10 +103,15 @@ padding: 16px;
 
            .news-card{
             // width: 536px;
-            
-
+            padding: 5px;
+            border: 1px solid rgb(226, 207, 207);
+            // background-color: rgb(238, 232, 220);
+            // background-color: #ccd8d8;//             box-shadow: 0px 1px 5px -127px rgba(48,232,184,0.75);
+// -webkit-box-shadow: 0px 1px 5px -127px rgba(48,232,184,0.75);
+// -moz-box-shadow: 0px 1px 5px -127px rgba(48,232,184,0.75);
                .blogImage{
                    width: 100%;
+                   object-fit: cover;
                 // width: 536px;
                 margin-bottom: 27px;
                }
@@ -160,6 +165,7 @@ height: 52px;
 box-shadow: 0px 3px 28px #00000045;
 border: 1px solid #FFFFFF;
 border-radius: 50%;
+object-fit: cover;
 }
                        .description{
        
@@ -185,6 +191,7 @@ border-radius: 50%;
                        .dateIcon{
                         width: 13px;
                         height: 13px;
+                        object-fit: cover;
                        }
                        .date{
                         text-align: left;
@@ -299,6 +306,7 @@ padding: 5px 13px;
                 margin-bottom: 17px;
                 justify-content: flex-start;
                 .imgblogpop{
+                    object-fit: cover;
             
                     width: 135px;
                     height: 135px;
