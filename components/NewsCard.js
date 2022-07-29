@@ -25,7 +25,7 @@ const NewsCard = ({ id, image, video, title, content, link, date }) => {
         content && <div className='content'>{content}</div>
       )}
 
-      <div className='detail d-flex-row'>
+      {/* <div className='detail d-flex-row'>
         <div className='left-inner d-flex-row'>
           <img src='./Images/donald.jpg' alt='man' className='person' />
           <div className='description d-flex-col'>
@@ -43,7 +43,7 @@ const NewsCard = ({ id, image, video, title, content, link, date }) => {
             <div className='date'>{date}</div>
           </div>
         )}
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -32,7 +32,7 @@ const NewsData = [
       'Malabar AI describes itself as a ‘Fintech Lifestyle AI company’, with a vision - to offer a ‘continuous financial advice platform’, to provide an ‘isometrically focused product independent’ advice platform and a strategic transformative paradigm shift in financial advisory channels...',
     image: './Images/blog1.jpg',
     link: 'https://hubbis.com/article/malabar-ai-offers-clients-the-720-degree-solution',
-    date:"Jan 11, 2018    "
+    // date:"Jan 11, 2018    "
   },
   {
     _id: 6,
@@ -41,7 +41,7 @@ const NewsData = [
       'A panel comprising digital experts from technology solutions and fintech innovators is unlikely to say anything other than ‘Yes’ to the overarching question of whether robo-advisory and other new apps are indeed the path ahead...',
     image: './Images/blog2.jpg',
     link: 'https://hubbis.com/article/are-robo-advisory-and-other-digital-solutions-gaining-ground',
-    date: 'Jan 8, 2018',
+    // date: 'Jan 8, 2018',
   },
   {
     _id: 7,
@@ -49,7 +49,7 @@ const NewsData = [
     content: '',
     image: './Images/blog3.jpg',
     link: 'https://hubbis.com/video/what-is-client-advice-2017-11-7',
-    date:"Nov 7, 2017    "
+    // date:"Nov 7, 2017    "
   },
   {
     _id: 8,
@@ -58,7 +58,7 @@ const NewsData = [
       'Robo-advisors, built on artificial intelligence (AI) are designed to evolve as they learn from their users. In an exclusive interview with Hubbis, Donald Soo of Malabar Investments discusses the platform they’re developing and why it’s the next-generation solution the market needs.Existing robo-advisory platforms are in demand because of cost advantages, efficiency, ease of use and accessibility, among other things – but most are only capable of advising clients about investment and insurance products. The next generation, Donald Soo belie',
     image: './Images/blog4.jpg',
     link: 'https://hubbis.com/article/malabar-ai-a-fully-integrated-platform',
-    date:"Nov 4, 2017"
+    // date:"Nov 4, 2017"
   },
   {
     _id: 9,
