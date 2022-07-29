@@ -45,19 +45,18 @@ const Contact = () => {
               <div className='box box-1'>
                 <div className='title'>Address</div>
                 <div className='text'>
-                 15/F, Soundwill Plaza II-Midtown, 1-29 Tang Lung
-                  Street, Causeway Bay, Hong Kong
+                  15/F, Soundwill Plaza II-Midtown, 1-29 Tang Lung Street,
+                  Causeway Bay, Hong Kong
                 </div>
-              </div>
-              <br />
-              <div className='box'>
-                <div className='title'>Email</div>
-                <div className='text'>info@koizai.com</div>
               </div>
             </div>
             <div className='box'>
               <div className='title'>Contact</div>
               <div className='text'>+852 8192 6445</div>
+            </div>
+            <div className='box'>
+              <div className='title'>Email</div>
+              <div className='text'>info@koizai.com</div>
             </div>
           </div>
         </div>
@@ -80,9 +79,8 @@ const Contact = () => {
 
 export default Contact
 
-
 export async function getServerSideProps(context) {
   return {
-      props: {},
-  };
+    props: {},
+  }
 }
